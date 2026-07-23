@@ -1,0 +1,2 @@
+source /gsFiles/Projects/esp32/gpio/build/bootloader/gdbinit/symbols
+source /gsFiles/Projects/esp32/gpio/build/bootloader/gdbinit/connect

@@ -1,0 +1,9 @@
+Command: cmake -G Ninja -B /gsFiles/Projects/esp32/hello_world/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/gsFiles/user_gs/home_user_gsb/.espressif/tools/python/v6.0.1/venv/bin/python -DESP_PLATFORM=1 -DIDF_TARGET=esp32 -DCCACHE_ENABLE=False /gsFiles/Projects/esp32/hello_world
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 

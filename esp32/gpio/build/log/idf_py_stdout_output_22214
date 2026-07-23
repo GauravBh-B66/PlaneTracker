@@ -1,0 +1,15 @@
+Command: ninja all
+[0/1] Re-running CMake...
+-- Component directory /gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mqtt does not contain a CMakeLists.txt file. No component will be added
+-- git rev-parse returned 'fatal: detected dubious ownership in repository at '/gsFiles/Projects/tools/esp/v6.0.1/esp-idf'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /gsFiles/Projects/tools/esp/v6.0.1/esp-idf'
+-- Minimal build - ON
+-- git rev-parse returned 'fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+/usr/bin/cmake --regenerate-during-build -S/gsFiles/Projects/esp32/gpio -B/gsFiles/Projects/esp32/gpio/build

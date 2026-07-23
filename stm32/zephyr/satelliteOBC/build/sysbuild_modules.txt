@@ -1,0 +1,1 @@
+"mcuboot":"/gsFiles/Projects/stm32/zephyr/satelliteOBC/bootloader/mcuboot":"/gsFiles/Projects/stm32/zephyr/satelliteOBC/bootloader/mcuboot/boot/zephyr/sysbuild"

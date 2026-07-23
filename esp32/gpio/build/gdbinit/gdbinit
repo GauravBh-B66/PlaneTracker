@@ -1,0 +1,2 @@
+source /gsFiles/Projects/esp32/gpio/build/gdbinit/symbols
+source /gsFiles/Projects/esp32/gpio/build/gdbinit/connect

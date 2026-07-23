@@ -1,0 +1,14 @@
+Command: ninja all
+fatal: detected dubious ownership in repository at '/gsFiles/Projects/tools/esp/v6.0.1/esp-idf'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /gsFiles/Projects/tools/esp/v6.0.1/esp-idf
+Loading defaults file /gsFiles/Projects/esp32/station/sdkconfig.defaults...
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 

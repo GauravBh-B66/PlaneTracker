@@ -1,0 +1,18 @@
+Command: ninja all
+fatal: detected dubious ownership in repository at '/gsFiles/Projects/tools/esp/v6.0.1/esp-idf'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /gsFiles/Projects/tools/esp/v6.0.1/esp-idf
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 
+CMake Error at main/CMakeLists.txt:4 (PRIV_REQUIRES):
+  Unknown CMake command "PRIV_REQUIRES".
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

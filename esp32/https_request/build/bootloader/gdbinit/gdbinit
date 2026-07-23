@@ -1,0 +1,2 @@
+source /gsFiles/Projects/esp32/https_request/build/bootloader/gdbinit/symbols
+source /gsFiles/Projects/esp32/https_request/build/bootloader/gdbinit/connect

@@ -1,0 +1,13 @@
+Command: cmake -G Ninja -B /gsFiles/Projects/esp32/gpio/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/gsFiles/user_gs/home_user_gsb/.espressif/tools/python/v6.0.1/venv/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /gsFiles/Projects/esp32/gpio
+fatal: detected dubious ownership in repository at '/gsFiles/Projects/tools/esp/v6.0.1/esp-idf'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /gsFiles/Projects/tools/esp/v6.0.1/esp-idf
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 

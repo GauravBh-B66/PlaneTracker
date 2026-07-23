@@ -1,0 +1,61 @@
+cmake:
+  application:
+    configuration-dir: '/gsFiles/Projects/stm32/zephyr/satelliteOBC'
+    source-dir: '/gsFiles/Projects/stm32/zephyr/satelliteOBC'
+  board:
+    name: 'nucleo_f303re'
+    path:
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/boards/st/nucleo_f303re'
+    qualifiers: 'stm32f303xe'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/dts/bindings'
+    files:
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/boards/st/nucleo_f303re/nucleo_f303re.dts'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/nucleo_f303re.overlay'
+    include-dirs:
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/modules/hal/ambiq/dts'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/modules/hal/atmel/include'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/modules/hal/bouffalolab/include'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/modules/hal/bouffalolab/include/zephyr'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/modules/hal/gigadevice/include'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/modules/hal/microchip/include'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/modules/hal/microchip/dts'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/modules/hal/nuvoton/dts'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/modules/hal/nxp/dts'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/modules/hal/stm32/dts'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/modules/hal/ti/dts'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/include'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/include/zephyr'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/dts/common'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/dts/vendor'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/dts/rx'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/dts/x86'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/dts/xtensa'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/dts/sparc'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/dts/riscv'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/dts/posix'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/dts/arm64'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/dts/arm'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/dts/arc'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/dts'
+    user-files:
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/nucleo_f303re.overlay'
+  kconfig:
+    files:
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr/boards/st/nucleo_f303re/nucleo_f303re_defconfig'
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/prj.conf'
+    user-files:
+     - '/gsFiles/Projects/stm32/zephyr/satelliteOBC/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/gsFiles/user_gs/home_user_gsb/zephyr-sdk-1.0.1'
+  zephyr:
+    version: '4.4.99'
+    zephyr-base: '/gsFiles/Projects/stm32/zephyr/satelliteOBC/zephyr'
+version: '0.1.0'
+west:
+  command: '/gsFiles/Projects/stm32/zephyr/satelliteOBC/.venv/bin/west build -p always'
+  topdir: '/gsFiles/Projects/stm32/zephyr/satelliteOBC'
+  version: '1.5.0'

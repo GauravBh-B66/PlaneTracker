@@ -1,0 +1,43 @@
+Command: ninja all
+fatal: detected dubious ownership in repository at '/gsFiles/Projects/tools/esp/v6.0.1/esp-idf'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /gsFiles/Projects/tools/esp/v6.0.1/esp-idf
+CMake Warning at /gsFiles/Projects/tools/esp/v6.0.1/esp-idf/tools/cmake/build.cmake:695 (message):
+Call Stack (most recent call first):
+  /gsFiles/Projects/tools/esp/v6.0.1/esp-idf/tools/cmake/project.cmake:773 (idf_build_process)
+  CMakeLists.txt:9 (project)
+
+
+Loading defaults file /gsFiles/Projects/esp32/https_x509_bundle/sdkconfig.defaults...
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 
+CMake Warning at /gsFiles/Projects/tools/esp/v6.0.1/esp-idf/tools/cmake/project.cmake:786 (message):
+  Missing kconfig option.  Re-run the build process...
+Call Stack (most recent call first):
+  CMakeLists.txt:9 (project)
+
+
+Loading defaults file /gsFiles/Projects/esp32/https_x509_bundle/sdkconfig.defaults...
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 
+fatal: detected dubious ownership in repository at '/gsFiles/Projects/tools/esp/v6.0.1/esp-idf'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /gsFiles/Projects/tools/esp/v6.0.1/esp-idf
+fatal: detected dubious ownership in repository at '/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/openthread/openthread'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/openthread/openthread

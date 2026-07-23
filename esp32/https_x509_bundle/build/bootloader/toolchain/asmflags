@@ -1,0 +1,6 @@
+"-specs=/gsFiles/Projects/esp32/https_x509_bundle/build/bootloader/specs/picolibc.specs"
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero

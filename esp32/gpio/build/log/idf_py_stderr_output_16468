@@ -1,0 +1,28 @@
+Command: cmake -G Ninja -B /gsFiles/Projects/esp32/gpio/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/gsFiles/user_gs/home_user_gsb/.espressif/tools/python/v6.0.1/venv/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /gsFiles/Projects/esp32/gpio
+fatal: detected dubious ownership in repository at '/gsFiles/Projects/tools/esp/v6.0.1/esp-idf'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /gsFiles/Projects/tools/esp/v6.0.1/esp-idf
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 
+CMake Error at /gsFiles/Projects/tools/esp/v6.0.1/esp-idf/tools/cmake/component.cmake:494 (add_library):
+  Cannot find source file:
+
+    /gsFiles/Projects/esp32/gpio/main/hello_world_main.c
+Call Stack (most recent call first):
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Error at /gsFiles/Projects/tools/esp/v6.0.1/esp-idf/tools/cmake/component.cmake:494 (add_library):
+  No SOURCES given to target: __idf_main
+Call Stack (most recent call first):
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

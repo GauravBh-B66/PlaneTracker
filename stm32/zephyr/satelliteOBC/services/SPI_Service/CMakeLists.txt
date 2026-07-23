@@ -1,0 +1,3 @@
+zephyr_library_named(SERVICE_SPI)
+zephyr_library_sources(spiService.c)
+target_include_directories(SERVICE_SPI PUBLIC ${CMAKE_CURRENT_LIST_DIR})
