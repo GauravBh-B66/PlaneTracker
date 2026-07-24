@@ -1,18 +1,3 @@
-/*
- * HTTPS GET Example using plain Mbed TLS sockets
- *
- * Contacts the howsmyssl.com API via TLS v1.2 and reads a JSON
- * response.
- *
- * Adapted from the ssl_client1 example in Mbed TLS.
- *
- * SPDX-FileCopyrightText: The Mbed TLS Contributors
- *
- * SPDX-License-Identifier: Apache-2.0
- *
- * SPDX-FileContributor: 2015-2025 Espressif Systems (Shanghai) CO LTD
- */
-
 #include <string.h>
 #include <stdlib.h>
 #include <inttypes.h>
@@ -47,22 +32,14 @@
 #include "esp_random.h"
 
 /* Constants that aren't configurable in menuconfig */
-#ifdef CONFIG_EXAMPLE_SSL_PROTO_TLS1_3_CLIENT
-#define WEB_SERVER "tls13.browserleaks.com"
-#define WEB_PORT "443"
-#define WEB_URL "https://tls13.browserleaks.com/tls"
-#else
 #define WEB_SERVER "opensky-network.org"
 #define WEB_PORT "443"
 #define WEB_URL "https://opensky-network.org/api/states/all?icao24=70AA79"
-// #define WEB_SERVER "howsmyssl.com"
-// #define WEB_PORT "443"
-// #define WEB_URL "https://www.howsmyssl.com/a/check"
-#endif
+
 
 #define SERVER_URL_MAX_SZ 256
 
-static const char *TAG = "example";
+static const char *TAG = "OpenSky Test";
 
 /* Timer interval once every day (24 Hours) */
 #define TIME_PERIOD (86400000000ULL)
