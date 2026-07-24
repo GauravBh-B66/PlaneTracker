@@ -57,3 +57,5 @@ dkms.conf
 ./stm32/zephyr/satelliteOBC/zephyr
 ./stm32/zephyr/satelliteOBC/tools
 ./stm32/zephyr/satelliteOBC/modules
+
+./esp32/https_request/build

@@ -1,4 +1,4 @@
-/* * Data converted from /gsFiles/Projects/esp32/https_request/main/local_server_cert.pem
+/* * Data converted from /gsFiles/Projects/github/PlaneTracker/esp32/https_request/main/local_server_cert.pem
  * (null byte appended)
  */
 .data

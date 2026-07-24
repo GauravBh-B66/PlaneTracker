@@ -1,13 +1,13 @@
 {
     "version":            "1.3",
     "project_name":       "https_request",
-    "project_version":    "1",
-    "project_path":       "/gsFiles/Projects/esp32/https_request",
+    "project_version":    "bb1559f-dirty",
+    "project_path":       "/gsFiles/Projects/github/PlaneTracker/esp32/https_request",
     "idf_path":           "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf",
-    "build_dir":          "/gsFiles/Projects/esp32/https_request/build",
-    "config_file":        "/gsFiles/Projects/esp32/https_request/sdkconfig",
-    "config_defaults":    "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/config/mbedtls_preset_default.conf;/gsFiles/Projects/esp32/https_request/sdkconfig.defaults",
-    "bootloader_elf":     "/gsFiles/Projects/esp32/https_request/build/bootloader/bootloader.elf",
+    "build_dir":          "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build",
+    "config_file":        "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/sdkconfig",
+    "config_defaults":    "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/config/mbedtls_preset_default.conf;/gsFiles/Projects/github/PlaneTracker/esp32/https_request/sdkconfig.defaults",
+    "bootloader_elf":     "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/bootloader/bootloader.elf",
     "app_elf":            "https_request.elf",
     "app_bin":            "https_request.bin",
     "build_type":         "flash_app",
@@ -22,11 +22,11 @@
     "c_compiler":         "/gsFiles/user_gs/home_user_gsb/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc",
     "config_environment" : {
         "COMPONENT_KCONFIGS" : "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/efuse/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_coex/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_common/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_dma/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_gpio/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_spi/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_uart/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_usb_serial_jtag/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_eth/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_event/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_mm/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_partition/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_phy/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_pm/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_psram/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_ringbuf/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_rom/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_security/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_stdio/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_timer/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/hal/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/ieee802154/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_sec_provider/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/openthread/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/pthread/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/soc/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/Kconfig;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/vfs/Kconfig",
-        "COMPONENT_KCONFIGS_PROJBUILD" : "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/app_update/Kconfig.projbuild;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader/Kconfig.projbuild;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_app_format/Kconfig.projbuild;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_rom/Kconfig.projbuild;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esptool_py/Kconfig.projbuild;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/partition_table/Kconfig.projbuild;/gsFiles/Projects/esp32/https_request/main/Kconfig.projbuild;/gsFiles/Projects/esp32/https_request/managed_components/espressif__ethernet_init/Kconfig.projbuild;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common/Kconfig.projbuild"
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/app_update/Kconfig.projbuild;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader/Kconfig.projbuild;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_app_format/Kconfig.projbuild;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_rom/Kconfig.projbuild;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esptool_py/Kconfig.projbuild;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/partition_table/Kconfig.projbuild;/gsFiles/Projects/github/PlaneTracker/esp32/https_request/main/Kconfig.projbuild;/gsFiles/Projects/github/PlaneTracker/esp32/https_request/managed_components/espressif__ethernet_init/Kconfig.projbuild;/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "esp_libc", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "esp_stdio", "xtensa", "xtensa" ],
     "build_components" : [ "app_update", "bootloader", "bootloader_support", "console", "cxx", "efuse", "esp-tls", "esp_app_format", "esp_blockdev", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_dma", "esp_driver_gpio", "esp_driver_spi", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_eth", "esp_event", "esp_hal_ana_conv", "esp_hal_clock", "esp_hal_dma", "esp_hal_gpio", "esp_hal_gpspi", "esp_hal_i2s", "esp_hal_ieee802154", "esp_hal_mspi", "esp_hal_pmu", "esp_hal_rtc_timer", "esp_hal_security", "esp_hal_timg", "esp_hal_touch_sens", "esp_hal_uart", "esp_hal_usb", "esp_hal_wdt", "esp_hw_support", "esp_libc", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_security", "esp_stdio", "esp_system", "esp_timer", "esp_usb_cdc_rom_console", "esp_wifi", "espressif__ethernet_init", "esptool_py", "freertos", "hal", "heap", "http_parser", "ieee802154", "log", "lwip", "main", "mbedtls", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "protocol_examples_common", "pthread", "soc", "spi_flash", "vfs", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/app_update", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/cxx", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/efuse", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_app_format", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_blockdev", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_bootloader_format", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_coex", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_common", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_dma", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_gpio", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_spi", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_uart", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_usb_serial_jtag", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_eth", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_event", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_ana_conv", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_clock", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_dma", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_gpio", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_gpspi", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_i2s", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_ieee802154", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_mspi", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_pmu", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_rtc_timer", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_security", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_timg", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_touch_sens", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_uart", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_usb", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_wdt", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_mm", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif_stack", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_partition", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_phy", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_pm", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_psram", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_ringbuf", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_rom", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_security", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_stdio", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_timer", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_usb_cdc_rom_console", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi", "/gsFiles/Projects/esp32/https_request/managed_components/espressif__ethernet_init", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esptool_py", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/hal", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/http_parser", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/ieee802154", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip", "/gsFiles/Projects/esp32/https_request/main", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_sec_provider", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/openthread", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/partition_table", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/pthread", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/soc", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/vfs", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa", "" ],
+    "build_component_paths" : [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/app_update", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/cxx", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/efuse", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_app_format", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_blockdev", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_bootloader_format", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_coex", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_common", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_dma", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_gpio", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_spi", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_uart", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_usb_serial_jtag", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_eth", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_event", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_ana_conv", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_clock", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_dma", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_gpio", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_gpspi", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_i2s", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_ieee802154", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_mspi", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_pmu", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_rtc_timer", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_security", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_timg", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_touch_sens", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_uart", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_usb", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_wdt", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_mm", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif_stack", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_partition", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_phy", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_pm", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_psram", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_ringbuf", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_rom", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_security", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_stdio", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_timer", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_usb_cdc_rom_console", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi", "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/managed_components/espressif__ethernet_init", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esptool_py", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/hal", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/http_parser", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/ieee802154", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip", "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/main", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_sec_provider", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/openthread", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/partition_table", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/pthread", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/soc", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/vfs", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "app_update": {
             "alias": "idf::app_update",
@@ -39,7 +39,7 @@
             "priv_reqs": [ "esptool_py", "efuse", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/app_update/libapp_update.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/app_update/libapp_update.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/app_update/esp_ota_ops.c" ],
             "include_dirs": [ "include" ]
         },
@@ -69,7 +69,7 @@
             "priv_reqs": [ "spi_flash", "mbedtls", "efuse", "heap", "esp_bootloader_format", "esp_app_format", "esptool_py", "esp_hal_wdt", "esp_hal_gpio", "esp_hal_uart", "esp_hal_ana_conv", "esp_hal_rtc_timer", "esp_hal_clock" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/bootloader_support/libbootloader_support.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/bootloader_support/libbootloader_support.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/src/bootloader_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/src/bootloader_mem.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/src/bootloader_random.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/src/flash_encrypt.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/src/secure_boot.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/src/bootloader_random_esp32.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/src/bootloader_utility.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/src/flash_partitions.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/src/esp_image_format.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/src/bootloader_sha.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/src/esp32/secure_boot_secure_features.c" ],
             "include_dirs": [ "include", "bootloader_flash/include" ]
         },
@@ -84,7 +84,7 @@
             "priv_reqs": [ "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_usb_cdc_rom_console" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/console/libconsole.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/console/libconsole.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/commands.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/esp_console_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/esp_console_repl_internal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/split_argv.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/linenoise/linenoise.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/esp_console_repl_chip.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/argtable3/arg_cmd.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/argtable3/arg_date.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/argtable3/arg_dbl.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/argtable3/arg_dstr.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/argtable3/arg_end.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/argtable3/arg_file.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/argtable3/arg_hashtable.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/argtable3/arg_int.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/argtable3/arg_lit.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/argtable3/arg_rem.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/argtable3/arg_rex.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/argtable3/arg_str.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/argtable3/arg_utils.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console/argtable3/argtable3.c" ],
             "include_dirs": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/console" ]
         },
@@ -99,7 +99,7 @@
             "priv_reqs": [ "esp_system", "pthread" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/cxx/libcxx.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/cxx/libcxx.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/cxx/cxx_exception_stubs.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/cxx/cxx_guards.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/cxx/cxx_init.cpp" ],
             "include_dirs": []
         },
@@ -114,7 +114,7 @@
             "priv_reqs": [ "bootloader_support", "soc", "spi_flash", "esp_system", "esp_partition", "esp_app_format", "esp_hal_security" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/efuse/libefuse.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/efuse/libefuse.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/efuse/esp32/esp_efuse_table.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/efuse/esp32/esp_efuse_fields.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/efuse/esp32/esp_efuse_utility.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/efuse/src/esp_efuse_api.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/efuse/src/esp_efuse_fields.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/efuse/src/esp_efuse_utility.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/efuse/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/efuse/src/esp_efuse_startup.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -129,7 +129,7 @@
             "priv_reqs": [ "http_parser", "esp_timer", "lwip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp-tls/libesp-tls.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp-tls/libesp-tls.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp_tls.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp_tls_error_capture.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp_tls_platform_port.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp_tls_mbedtls.c" ],
             "include_dirs": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls", "esp-tls-crypto" ]
         },
@@ -144,7 +144,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_app_format/libesp_app_format.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_app_format/libesp_app_format.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_app_format/esp_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -174,7 +174,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -189,7 +189,7 @@
             "priv_reqs": [ "esp_timer", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_coex/libesp_coex.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_coex/libesp_coex.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_coex/esp32/esp_coex_adapter.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_coex/src/coexist_debug_diagram.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_coex/src/coexist_debug.c" ],
             "include_dirs": [ "include" ]
         },
@@ -204,7 +204,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_common/libesp_common.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_common/libesp_common.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_common/src/esp_err_to_name.c" ],
             "include_dirs": [ "include" ]
         },
@@ -219,7 +219,7 @@
             "priv_reqs": [ "esp_mm", "bootloader_support", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_driver_dma/libesp_driver_dma.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_driver_dma/libesp_driver_dma.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_dma/src/esp_dma_utils.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_dma/src/gdma_link.c" ],
             "include_dirs": [ "include" ]
         },
@@ -234,7 +234,7 @@
             "priv_reqs": [ "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_gpio/src/gpio.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_gpio/src/gpio_glitch_filter_ops.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_gpio/src/rtc_io.c" ],
             "include_dirs": [ "include" ]
         },
@@ -249,7 +249,7 @@
             "priv_reqs": [ "esp_timer", "esp_mm", "esp_driver_gpio", "spi_flash", "esp_psram" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_driver_spi/libesp_driver_spi.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_driver_spi/libesp_driver_spi.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_slave.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_dma.c" ],
             "include_dirs": [ "include" ]
         },
@@ -264,7 +264,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_driver_dma", "esp_ringbuf", "esp_mm", "esp_psram" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_uart/src/uart.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_uart/src/uart_wakeup.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_uart/src/uart_vfs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -294,7 +294,7 @@
             "priv_reqs": [ "log", "esp_timer", "esp_driver_spi", "esp_driver_gpio", "esp_hal_clock" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_eth/libesp_eth.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_eth/libesp_eth.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_eth/src/esp_eth.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_eth/src/phy/esp_eth_phy_802_3.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_eth/src/esp_eth_netif_glue.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp_dma.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp_gpio.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_eth/src/phy/esp_eth_phy_generic.c" ],
             "include_dirs": [ "include" ]
         },
@@ -309,7 +309,7 @@
             "priv_reqs": [ "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_event/libesp_event.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_event/libesp_event.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_event/default_event_loop.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_event/esp_event.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_event/esp_event_private.c" ],
             "include_dirs": [ "include" ]
         },
@@ -324,7 +324,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_ana_conv/esp32/adc_periph.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_ana_conv/adc_hal_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_ana_conv/adc_oneshot_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_ana_conv/adc_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_ana_conv/esp32/dac_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -339,7 +339,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_hal_clock/libesp_hal_clock.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_hal_clock/libesp_hal_clock.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_clock/esp32/clk_tree_hal.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -369,7 +369,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_hal_gpio/libesp_hal_gpio.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_hal_gpio/libesp_hal_gpio.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_gpio/gpio_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_gpio/rtc_io_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_gpio/esp32/rtc_io_periph.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_gpio/sdm_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_gpio/esp32/sdm_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -384,7 +384,7 @@
             "priv_reqs": [ "esp_hal_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_gpspi/esp32/spi_periph.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_gpspi/spi_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_gpspi/spi_hal_iram.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_gpspi/spi_slave_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_gpspi/spi_slave_hal_iram.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -399,7 +399,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_hal_i2s/libesp_hal_i2s.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_hal_i2s/libesp_hal_i2s.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_i2s/i2s_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_i2s/esp32/i2s_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -429,7 +429,7 @@
             "priv_reqs": [ "esp_hal_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_hal_mspi/libesp_hal_mspi.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_hal_mspi/libesp_hal_mspi.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_mspi/spi_flash_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_mspi/spi_flash_hal_iram.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_mspi/spi_flash_encrypt_hal_iram.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -444,7 +444,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_hal_pmu/libesp_hal_pmu.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_hal_pmu/libesp_hal_pmu.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_pmu/brownout_hal.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -474,7 +474,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_hal_security/libesp_hal_security.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_hal_security/libesp_hal_security.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_security/mpi_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_security/sha_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_security/aes_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_security/mpu_hal.c" ],
             "include_dirs": [ "esp32/include", "include" ]
         },
@@ -489,7 +489,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_hal_timg/libesp_hal_timg.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_hal_timg/libesp_hal_timg.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_timg/timer_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_timg/esp32/timer_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -504,7 +504,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_touch_sens/esp32/touch_sensor_legacy_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_touch_sens/touch_sensor_legacy_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_touch_sens/touch_sens_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_touch_sens/esp32/touch_sensor_periph.c" ],
             "include_dirs": [ "esp32/include", "include" ]
         },
@@ -519,7 +519,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_hal_uart/libesp_hal_uart.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_hal_uart/libesp_hal_uart.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_uart/uart_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_uart/uart_hal_iram.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_uart/esp32/uart_periph.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -549,7 +549,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_hal_wdt/libesp_hal_wdt.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_hal_wdt/libesp_hal_wdt.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_wdt/esp32/mwdt_periph.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_wdt/wdt_hal_iram.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -564,7 +564,7 @@
             "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_hal_wdt", "esp_hal_security", "esp_hal_rtc_timer", "esp_hal_clock", "esp_driver_gpio", "esp_timer", "esp_hal_touch_sens", "esp_hal_i2s", "esp_pm", "esp_mm", "esp_hal_mspi", "esp_hal_uart" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_hw_support/libesp_hw_support.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_hw_support/libesp_hw_support.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/cpu.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/port/esp32/esp_cpu_intr.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/esp_memory_utils.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/port/esp32/cpu_region_protect.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/esp_clk.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/hw_random.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/intr_alloc.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/mac_addr.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/periph_ctrl.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/revision.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/rtc_module.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/sar_tsens_ctrl.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/port/esp32/io_mux.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/port/esp32/esp_clk_tree.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/spi_bus_lock.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/heap_align_hw.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/clk_utils.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/spi_share_hw_ctrl.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/sleep_modem.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/sleep_modes.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/sleep_uart.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/sleep_console.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/sleep_mspi.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/sleep_usb.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/sleep_gpio.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/sleep_event.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/rtc_wdt.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/mspi_timing_tuning/mspi_timing_tuning.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/esp_clock_output.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/power_supply/brownout.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/port/esp32/rtc_clk_init.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/port/esp32/rtc_init.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/port/esp32/rtc_sleep.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/port/esp32/chip_info.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/port/esp32/cache_sram_mmu.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/port/esp32/sar_periph_ctrl.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hw_support/lowpower" ],
             "include_dirs": [ "include", "include/soc", "ldo/include", "debug_probe/include", "etm/include", "mspi_timing_tuning/include", "mspi_timing_tuning/tuning_scheme_impl/include", "power_supply/include", "modem/include" ]
         },
@@ -579,7 +579,7 @@
             "priv_reqs": [ "soc", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_libc/libesp_libc.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_libc/libesp_libc.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/init.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/abort.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/assert.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/heap.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/locks.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/poll.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/pthread.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/random.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/getentropy.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/termios.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/stdatomic.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/time.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/sysconf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/realpath.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/scandir.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/syscalls.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/reent_syscalls.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/port/esp_time_impl.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/picolibc/picolibc_init.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/picolibc/rand.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/picolibc/open_memstream.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/picolibc/errno.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/picolibc/bufio_setvbuf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/picolibc/getreent.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/picolibc/fopencookie.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/port/esp_time_impl.c" ],
             "include_dirs": [ "platform_include" ]
         },
@@ -594,7 +594,7 @@
             "priv_reqs": [ "heap", "spi_flash", "esp_hal_dma" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_mm/libesp_mm.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_mm/libesp_mm.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_mm/esp_mmu_map.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_mm/port/esp32/ext_mem_layout.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_mm/esp_cache_msync.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_mm/esp_cache_utils.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_mm/cache_esp32.c" ],
             "include_dirs": [ "include" ]
         },
@@ -609,7 +609,7 @@
             "priv_reqs": [ "esp_netif_stack" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_netif/libesp_netif.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_netif/libesp_netif.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/esp_netif_handlers.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/esp_netif_objects.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/esp_netif_defaults.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_sntp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip_defaults.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/netif/wlanif.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/netif/ethernetif.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/netif/esp_pbuf_ref.c" ],
             "include_dirs": [ "include" ]
         },
@@ -639,7 +639,7 @@
             "priv_reqs": [ "esp_system", "spi_flash", "partition_table", "efuse", "bootloader_support", "app_update" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_partition/libesp_partition.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_partition/libesp_partition.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_partition/partition.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_partition/partition_target.c" ],
             "include_dirs": [ "include" ]
         },
@@ -654,7 +654,7 @@
             "priv_reqs": [ "nvs_flash", "esp_driver_gpio", "esp_hal_ana_conv", "efuse", "esp_timer", "esp_wifi", "esptool_py" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_phy/libesp_phy.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_phy/libesp_phy.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_phy/src/phy_override.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_phy/src/lib_printf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_phy/src/phy_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_phy/src/phy_init.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_phy/esp32/phy_init_data.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_phy/src/btbb_init.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -669,7 +669,7 @@
             "priv_reqs": [ "esp_system", "esp_driver_gpio", "esp_timer", "esp_hal_uart" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_pm/libesp_pm.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_pm/libesp_pm.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_pm/pm_locks.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_pm/pm_trace.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_pm/pm_impl.c" ],
             "include_dirs": [ "include" ]
         },
@@ -684,7 +684,7 @@
             "priv_reqs": [ "heap", "spi_flash", "esp_mm", "esp_hal_mspi", "esp_hal_gpio", "bootloader_support", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_psram/libesp_psram.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_psram/libesp_psram.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_psram/system_layer/esp_psram_mspi.c" ],
             "include_dirs": [ "include" ]
         },
@@ -699,7 +699,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_ringbuf/ringbuf.c" ],
             "include_dirs": [ "include" ]
         },
@@ -714,7 +714,7 @@
             "priv_reqs": [ "soc", "hal", "esp_hal_uart" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_rom/libesp_rom.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_rom/libesp_rom.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_rom/patches/esp_rom_print.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_rom/patches/esp_rom_serial_output.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_rom/patches/esp_rom_gpio.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S" ],
             "include_dirs": [ "include", "esp32/include", "esp32/include/esp32", "esp32" ]
         },
@@ -729,7 +729,7 @@
             "priv_reqs": [ "esp_hw_support", "hal", "efuse", "esp_system", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_security/libesp_security.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_security/libesp_security.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_security/src/init.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_security/src/esp_crypto_lock.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_security/src/esp_crypto_periph_clk.c" ],
             "include_dirs": [ "include" ]
         },
@@ -744,7 +744,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_stdio/libesp_stdio.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_stdio/libesp_stdio.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_stdio/stdio_vfs.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_stdio/stdio_simple.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_stdio/stdio_syscalls_simple.c" ],
             "include_dirs": [ "include" ]
         },
@@ -759,7 +759,7 @@
             "priv_reqs": [ "spi_flash", "esp_timer", "esp_mm", "esp_hal_mspi", "esp_hal_wdt", "esp_hal_uart", "esp_hal_dma", "esp_hal_clock", "bootloader_support", "esp_pm", "esp_usb_cdc_rom_console" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_system/libesp_system.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_system/libesp_system.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/esp_err.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/crosscore_int.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/esp_ipc.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/freertos_hooks.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/int_wdt.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/panic.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/esp_system.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/startup.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/startup_funcs.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/system_time.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/stack_check.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/ubsan.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/xt_wdt.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/task_wdt/task_wdt.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/task_wdt/task_wdt_impl_timergroup.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/cpu_start.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/panic_handler.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/esp_system_chip.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/image_process.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/esp_ipc_isr.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_port.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/arch/xtensa/panic_arch.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/arch/xtensa/debug_stubs.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/arch/xtensa/trax.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/soc/esp32/highint_hdl.S", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/soc/esp32/clk.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/soc/esp32/system_internal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/soc/esp32/cache_err_int.c" ],
             "include_dirs": [ "include" ]
         },
@@ -774,7 +774,7 @@
             "priv_reqs": [ "esp_hal_timg" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_timer/libesp_timer.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_timer/libesp_timer.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_timer/src/esp_timer.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_timer/src/esp_timer_init.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_timer/src/ets_timer_legacy.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_timer/src/system_time.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_timer/src/esp_timer_impl_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c" ],
             "include_dirs": [ "include" ]
         },
@@ -804,7 +804,7 @@
             "priv_reqs": [ "esp_pm", "esp_timer", "nvs_flash", "wpa_supplicant", "hal", "lwip", "esp_coex" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/esp_wifi/libesp_wifi.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/esp_wifi/libesp_wifi.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi/src/lib_printf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi/src/mesh_event.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi/src/smartconfig.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi/src/wifi_init.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi/src/wifi_default.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi/src/wifi_netif.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi/esp32/esp_adapter.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi/regulatory/esp_wifi_regulatory.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi/src/smartconfig_ack.c" ],
             "include_dirs": [ "include", "include/local", "wifi_apps/include", "wifi_apps/nan_app/include" ]
         },
@@ -812,15 +812,15 @@
             "alias": "idf::espressif__ethernet_init",
             "target": "___idf_espressif__ethernet_init",
             "prefix": "idf",
-            "dir": "/gsFiles/Projects/esp32/https_request/managed_components/espressif__ethernet_init",
+            "dir": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/managed_components/espressif__ethernet_init",
             "type": "LIBRARY",
             "lib": "__idf_espressif__ethernet_init",
             "reqs": [],
             "priv_reqs": [ "esp_driver_gpio", "esp_driver_spi", "esp_eth" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/espressif__ethernet_init/libespressif__ethernet_init.a",
-            "sources": [ "/gsFiles/Projects/esp32/https_request/managed_components/espressif__ethernet_init/ethernet_init.c" ],
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/espressif__ethernet_init/libespressif__ethernet_init.a",
+            "sources": [ "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/managed_components/espressif__ethernet_init/ethernet_init.c" ],
             "include_dirs": [ "." ]
         },
         "esptool_py": {
@@ -849,7 +849,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/freertos/libfreertos.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/freertos/libfreertos.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/heap_idf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/app_startup.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/port_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/port_systick.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/list.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/timers.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/stream_buffer.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/esp_additions/idf_additions_event_groups.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/esp_additions/idf_additions.c" ],
             "include_dirs": [ "config/include", "config/include/freertos", "config/xtensa/include", "FreeRTOS-Kernel/include", "FreeRTOS-Kernel/portable/xtensa/include", "FreeRTOS-Kernel/portable/xtensa/include/freertos", "esp_additions/include" ]
         },
@@ -864,7 +864,7 @@
             "priv_reqs": [ "esp_hal_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/hal/libhal.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/hal/libhal.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/hal/hal_utils.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/hal/efuse_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/hal/esp32/efuse_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/hal/mmu_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/hal/esp32/cache_hal_esp32.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/hal/color_hal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/hal/emac_hal.c" ],
             "include_dirs": [ "platform_port/include", "esp32/include", "include" ]
         },
@@ -879,7 +879,7 @@
             "priv_reqs": [ "soc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/heap/libheap.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/heap/libheap.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap/heap_caps_base.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap/heap_caps.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap/heap_caps_init.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap/multi_heap.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap/tlsf/tlsf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap/port/memory_layout_utils.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap/port/esp32/memory_layout.c" ],
             "include_dirs": [ "include", "tlsf" ]
         },
@@ -894,7 +894,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/http_parser/libhttp_parser.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/http_parser/libhttp_parser.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/http_parser/http_parser.c" ],
             "include_dirs": [ "." ]
         },
@@ -924,7 +924,7 @@
             "priv_reqs": [ "hal", "soc", "esp_hw_support" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/log/liblog.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/log/liblog.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/os/log_timestamp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/log_timestamp_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/os/log_lock.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/buffer/log_buffers.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/os/util.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/util.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/log_format_text.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/log_print.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/log.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/os/log_write.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/log_level/log_level.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/log_level/tag_log_level/tag_log_level.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/log_level/tag_log_level/linked_list/log_linked_list.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/log_level/tag_log_level/cache/log_binary_heap.c" ],
             "include_dirs": [ "include" ]
         },
@@ -939,7 +939,7 @@
             "priv_reqs": [ "vfs" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/lwip/liblwip.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/lwip/liblwip.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/apps/sntp/sntp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/api/api_lib.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/api/api_msg.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/api/err.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/api/if_api.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/api/netbuf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/api/netdb.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/api/netifapi.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/api/sockets.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/api/tcpip.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/apps/sntp/sntp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/apps/netbiosns/netbiosns.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/def.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/dns.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/inet_chksum.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/init.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ip.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/mem.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/memp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/netif.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/pbuf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/raw.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/stats.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/sys.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/tcp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/tcp_in.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/tcp_out.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/timeouts.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/udp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv4/autoip.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv4/dhcp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv4/etharp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv4/icmp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv4/igmp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv4/ip4.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_napt.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_addr.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_frag.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv6/dhcp6.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv6/ethip6.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv6/icmp6.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv6/inet6.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv6/ip6.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_addr.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_frag.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv6/mld6.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/core/ipv6/nd6.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ethernet.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/bridgeif.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/bridgeif_fdb.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/slipif.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/auth.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/ccp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/chap-md5.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/chap-new.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/chap_ms.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/demand.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/eap.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/ecp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/eui64.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/fsm.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/ipcp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/ipv6cp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/lcp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/magic.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/mppe.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/multilink.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/ppp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/pppapi.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/pppcrypt.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/pppoe.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/pppol2tp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/pppos.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/upap.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/utils.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/vj.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/port/hooks/tcp_isn_default.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/port/hooks/lwip_default_hooks.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/port/debug/lwip_debug.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/port/sockets_ext.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/port/freertos/sys_arch.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/port/if_index.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/port/acd_dhcp_check.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/port/esp32xx/vfs_lwip.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/apps/ping/ping_sock.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/arc4.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/des.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md4.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md5.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/sha1.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/lwip/apps/dhcpserver/dhcpserver.c" ],
             "include_dirs": [ "include", "include/apps", "lwip/src/include", "port/include", "port/freertos/include/", "port/esp32xx/include", "port/esp32xx/include/arch", "port/esp32xx/include/sys" ]
         },
@@ -947,15 +947,15 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "/gsFiles/Projects/esp32/https_request/main",
+            "dir": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
             "reqs": [],
             "priv_reqs": [ "esp-tls", "esp_wifi", "esp_timer", "nvs_flash", "protocol_examples_common" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "protocol_examples_common" ],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/main/libmain.a",
-            "sources": [ "/gsFiles/Projects/esp32/https_request/main/https_request_example_main.c", "/gsFiles/Projects/esp32/https_request/main/time_sync.c", "/gsFiles/Projects/esp32/https_request/build/server_root_cert.pem.S", "/gsFiles/Projects/esp32/https_request/build/local_server_cert.pem.S" ],
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/main/libmain.a",
+            "sources": [ "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/main/https_request_example_main.c", "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/main/time_sync.c", "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/server_root_cert.pem.S", "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/local_server_cert.pem.S" ],
             "include_dirs": [ "include" ]
         },
         "mbedtls": {
@@ -969,8 +969,8 @@
             "priv_reqs": [ "soc", "esp_hw_support", "esp_pm", "esp_driver_dma" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/mbedtls/libmbedtls.a",
-            "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "/gsFiles/Projects/esp32/https_request/build/x509_crt_bundle.S" ],
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/mbedtls/libmbedtls.a",
+            "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/x509_crt_bundle.S" ],
             "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library", "mbedtls/tf-psa-crypto/core", "mbedtls/tf-psa-crypto/drivers/builtin/src/", "esp_crt_bundle/include", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/port/psa_driver/include" ]
         },
         "nvs_flash": {
@@ -984,7 +984,7 @@
             "priv_reqs": [ "spi_flash", "esp_libc", "esptool_py", "nvs_sec_provider" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/nvs_flash/libnvs_flash.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/nvs_flash/libnvs_flash.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_api.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_cxx_api.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_page.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_storage.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_handle_simple.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_handle_locked.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_partition.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_partition_lookup.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_types.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_platform.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_bootloader.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_encrypted_partition.cpp", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_bootloader_aes.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_flash/src/nvs_bootloader_xts_aes.c" ],
             "include_dirs": [ "include" ]
         },
@@ -999,7 +999,7 @@
             "priv_reqs": [ "bootloader_support", "efuse", "esp_partition", "nvs_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/nvs_sec_provider/libnvs_sec_provider.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/nvs_sec_provider/libnvs_sec_provider.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1044,7 +1044,7 @@
             "priv_reqs": [ "esp_netif", "esp_driver_gpio", "esp_driver_uart", "esp_wifi", "vfs", "console", "openthread", "espressif__ethernet_init" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__ethernet_init" ],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/protocol_examples_common/libprotocol_examples_common.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/protocol_examples_common/libprotocol_examples_common.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common/stdin_out.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common/addr_from_stdin.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common/connect.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common/protocol_examples_utils.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common/console_cmd.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1059,7 +1059,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/pthread/libpthread.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/pthread/libpthread.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/pthread/pthread.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/pthread/pthread_cond_var.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/pthread/pthread_local_storage.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/pthread/pthread_rwlock.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/pthread/pthread_semaphore.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1074,7 +1074,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/soc/libsoc.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/soc/libsoc.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/soc/lldesc.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/soc/dport_access_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/soc/esp32/interrupts.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/soc/esp32/gpio_periph.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/soc/esp32/dport_access.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/soc/esp32/emac_periph.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/soc/esp32/mpi_periph.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/soc/esp32/power_supply_periph.c" ],
             "include_dirs": [ "include", "esp32", "esp32/include", "esp32/register" ]
         },
@@ -1089,7 +1089,7 @@
             "priv_reqs": [ "bootloader_support", "soc", "esp_hal_gpio", "esp_driver_gpio", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/spi_flash/libspi_flash.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/spi_flash/libspi_flash.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/flash_brownout_hook.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/spi_flash_chip_drivers.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/spi_flash_chip_generic.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/spi_flash_chip_issi.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/spi_flash_chip_mxic.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/spi_flash_chip_gd.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/spi_flash_chip_winbond.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/spi_flash_chip_boya.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/spi_flash_chip_th.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/memspi_host_driver.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/spi_flash_blockdev.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/cache_utils.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/flash_mmap.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/flash_ops.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/spi_flash_wrap.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/esp_flash_api.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/esp_flash_spi_init.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/spi_flash_os_func_app.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/spi_flash_os_func_noos.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1104,7 +1104,7 @@
             "priv_reqs": [ "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_usb_cdc_rom_console" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/vfs/libvfs.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/vfs/libvfs.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/vfs/vfs.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/vfs/vfs_calls.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/vfs/vfs_eventfd.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/vfs/vfs_semihost.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/vfs/nullfs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1119,7 +1119,7 @@
             "priv_reqs": [ "mbedtls", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/port/os_xtensa.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/port/eloop.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/ap/ap_config.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/ap/sta_info.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/common/sae.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/common/dragonfly.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/common/wpa_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/utils/bitfield.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/utils/base64.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/utils/common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/utils/ext_password.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/utils/uuid.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/utils/json.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/wps/wps.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/wps/wps_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/common/sae_pk.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_eap_client.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2_api_port.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/rc4.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpbkdf2.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c" ],
             "include_dirs": [ "include", "port/include", "esp_supplicant/include" ]
         },
@@ -1134,7 +1134,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/gsFiles/Projects/esp32/https_request/build/esp-idf/xtensa/libxtensa.a",
+            "file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/esp-idf/xtensa/libxtensa.a",
             "sources": [ "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/eri.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xt_trax.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_context.S", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_intr_asm.S", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_intr.c", "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S" ],
             "include_dirs": [ "esp32/include", "include", "deprecated_include" ]
         }
@@ -2951,7 +2951,7 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "/gsFiles/Projects/esp32/https_request/main",
+            "dir": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/main",
             "source": "project_components",
             "lib": "__idf_main",
             "reqs": [],
@@ -2964,7 +2964,7 @@
             "alias": "idf::espressif__ethernet_init",
             "target": "___idf_espressif__ethernet_init",
             "prefix": "idf",
-            "dir": "/gsFiles/Projects/esp32/https_request/managed_components/espressif__ethernet_init",
+            "dir": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/managed_components/espressif__ethernet_init",
             "source": "project_managed_components",
             "lib": "__idf_espressif__ethernet_init",
             "reqs": [],
@@ -2988,11 +2988,11 @@
         }
     },
     "gdbinit_files": {
-        "01_symbols": "/gsFiles/Projects/esp32/https_request/build/gdbinit/symbols",
-        "02_prefix_map": "/gsFiles/Projects/esp32/https_request/build/gdbinit/prefix_map",
-        "03_py_extensions": "/gsFiles/Projects/esp32/https_request/build/gdbinit/py_extensions",
-        "04_connect": "/gsFiles/Projects/esp32/https_request/build/gdbinit/connect"
+        "01_symbols": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/gdbinit/symbols",
+        "02_prefix_map": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/gdbinit/prefix_map",
+        "03_py_extensions": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/gdbinit/py_extensions",
+        "04_connect": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/gdbinit/connect"
     },
     "debug_arguments_openocd": "-f board/esp32-wrover-kit-3.3v.cfg",
-    "hints_file": "/gsFiles/Projects/esp32/https_request/build/hints.yml"
+    "hints_file": "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/hints.yml"
 }

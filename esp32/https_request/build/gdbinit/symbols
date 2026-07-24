@@ -18,8 +18,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /gsFiles/Projects/esp32/https_request/build/bootloader/bootloader.elf
+    add-symbol-file /gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /gsFiles/Projects/esp32/https_request/build/https_request.elf
+file /gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/https_request.elf

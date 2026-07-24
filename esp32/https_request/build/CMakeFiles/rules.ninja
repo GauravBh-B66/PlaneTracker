@@ -1385,7 +1385,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /gsFiles/user_gs/home_user_gsb/.espressif/tools/cmake/4.0.3/bin/cmake --regenerate-during-build -S/gsFiles/Projects/esp32/https_request -B/gsFiles/Projects/esp32/https_request/build
+  command = /gsFiles/user_gs/home_user_gsb/.espressif/tools/cmake/4.0.3/bin/cmake --regenerate-during-build -S/gsFiles/Projects/github/PlaneTracker/esp32/https_request -B/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build
   description = Re-running CMake...
   generator = 1
 

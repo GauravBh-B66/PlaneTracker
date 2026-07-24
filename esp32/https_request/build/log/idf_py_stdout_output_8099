@@ -1,0 +1,26 @@
+Command: cmake -G Ninja -B /gsFiles/Projects/github/PlaneTracker/esp32/https_request/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/gsFiles/user_gs/home_user_gsb/.espressif/python_env/idf6.0_py3.13_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /gsFiles/Projects/github/PlaneTracker/esp32/https_request
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig '/gsFiles/Projects/github/PlaneTracker/esp32/https_request/sdkconfig'
+-- Found Git: /usr/bin/git (found version "2.47.3")
+-- Component directory /gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mqtt does not contain a CMakeLists.txt file. No component will be added
+-- git rev-parse returned 'fatal: detected dubious ownership in repository at '/gsFiles/Projects/tools/esp/v6.0.1/esp-idf'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /gsFiles/Projects/tools/esp/v6.0.1/esp-idf'
+-- Minimal build - ON
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /gsFiles/user_gs/home_user_gsb/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /gsFiles/user_gs/home_user_gsb/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /gsFiles/user_gs/home_user_gsb/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+Invalid field "dependencies": Input should be a valid dictionary
+-- Configuring incomplete, errors occurred!

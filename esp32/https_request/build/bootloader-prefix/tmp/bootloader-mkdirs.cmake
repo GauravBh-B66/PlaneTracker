@@ -10,18 +10,18 @@ if(NOT EXISTS "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader/
   file(MAKE_DIRECTORY "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/gsFiles/Projects/esp32/https_request/build/bootloader"
-  "/gsFiles/Projects/esp32/https_request/build/bootloader-prefix"
-  "/gsFiles/Projects/esp32/https_request/build/bootloader-prefix/tmp"
-  "/gsFiles/Projects/esp32/https_request/build/bootloader-prefix/src/bootloader-stamp"
-  "/gsFiles/Projects/esp32/https_request/build/bootloader-prefix/src"
-  "/gsFiles/Projects/esp32/https_request/build/bootloader-prefix/src/bootloader-stamp"
+  "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/bootloader"
+  "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/bootloader-prefix"
+  "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/bootloader-prefix/tmp"
+  "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/bootloader-prefix/src/bootloader-stamp"
+  "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/bootloader-prefix/src"
+  "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/gsFiles/Projects/esp32/https_request/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/gsFiles/Projects/esp32/https_request/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

@@ -1,7 +1,0 @@
--Wno-frame-address
--mlongcalls
--fno-builtin-memcpy
--fno-builtin-memset
--fno-builtin-bzero
-"-specs=/gsFiles/Projects/esp32/https_x509_bundle/build/specs/picolibc.specs"
--fno-rtti

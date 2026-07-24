@@ -3,5 +3,5 @@
 -fno-builtin-memcpy
 -fno-builtin-memset
 -fno-builtin-bzero
-"-specs=/gsFiles/Projects/esp32/https_request/build/specs/picolibc.specs"
+"-specs=/gsFiles/Projects/github/PlaneTracker/esp32/https_request/build/specs/picolibc.specs"
 -fno-rtti

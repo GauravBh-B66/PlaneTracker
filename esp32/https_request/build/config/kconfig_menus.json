@@ -4924,7 +4924,7 @@
             }
         ],
         "depends_on": null,
-        "id": "example-configuration-gsFiles-Projects-esp32-https_request-main-Kconfig.projbuild-1",
+        "id": "example-configuration-gsFiles-Projects-github-PlaneTracker-esp32-https_request-main-Kconfig.projbuild-1",
         "title": "Example Configuration",
         "type": "menu"
     },
@@ -5137,7 +5137,7 @@
                         ],
                         "depends_on": "ETHERNET_INTERNAL_SUPPORT",
                         "help": "Select the communication interface between MAC and PHY chip.",
-                        "id": "ethernet-configuration-internal-emac-phy-interface-gsFiles-Projects-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-96",
+                        "id": "ethernet-configuration-internal-emac-phy-interface-gsFiles-Projects-github-PlaneTracker-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-96",
                         "name": "ETHERNET_PHY_INTERFACE",
                         "title": "PHY interface",
                         "type": "choice"
@@ -5167,7 +5167,7 @@
                         ],
                         "depends_on": "ETHERNET_PHY_INTERFACE_RMII && ETHERNET_INTERNAL_SUPPORT",
                         "help": "Select external or internal RMII CLK.",
-                        "id": "ethernet-configuration-internal-emac-rmii-clk-mode-gsFiles-Projects-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-112",
+                        "id": "ethernet-configuration-internal-emac-rmii-clk-mode-gsFiles-Projects-github-PlaneTracker-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-112",
                         "name": "ETHERNET_RMII_CLK_MODE",
                         "title": "RMII CLK mode",
                         "type": "choice"
@@ -5338,7 +5338,7 @@
                         ],
                         "depends_on": "ETHERNET_INTERNAL_SUPPORT",
                         "help": "Select the Ethernet PHY device to use.",
-                        "id": "ethernet-configuration-internal-emac-ethernet-phy-device-gsFiles-Projects-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-218",
+                        "id": "ethernet-configuration-internal-emac-ethernet-phy-device-gsFiles-Projects-github-PlaneTracker-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-218",
                         "name": "ETHERNET_PHY_MODEL",
                         "title": "Ethernet PHY Device",
                         "type": "choice"
@@ -5458,7 +5458,7 @@
                         ],
                         "depends_on": "ETHERNET_INTERNAL_SUPPORT",
                         "help": "If you observe undefined behavior (e.g. LCD glitches) of any DMA capable peripheral (SPI, I2S, etc.)\nwhich works normally when Ethernet is not connected over internal EMAC, you need to adjust EMAC DMA\nburst length since the DMA is shared resource between EMAC and other peripherals. The same applies\nwhen you observe Ethernet frames corruption at the output of SPI Ethernet module and you use\ncombination of internal EMAC and SPI Ethernet module as network interfaces.\nValid options are \"1, 2, 4, 8, 16 and 32\" beats. If you select default, driver's internal default\nvalue will be used.",
-                        "id": "ethernet-configuration-internal-emac-emac-dma-burst-length-gsFiles-Projects-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-313",
+                        "id": "ethernet-configuration-internal-emac-emac-dma-burst-length-gsFiles-Projects-github-PlaneTracker-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-313",
                         "name": "ETHERNET_DMA_BURST_LEN",
                         "title": "EMAC DMA Burst Length",
                         "type": "choice"
@@ -5572,7 +5572,7 @@
                         ],
                         "depends_on": "ETHERNET_SPI_SUPPORT",
                         "help": "Select which kind of SPI Ethernet will be used.",
-                        "id": "ethernet-configuration-spi-ethernet-spi-ethernet-module-1-gsFiles-Projects-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-392",
+                        "id": "ethernet-configuration-spi-ethernet-spi-ethernet-module-1-gsFiles-Projects-github-PlaneTracker-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-392",
                         "name": "ETHERNET_SPI_DEV0",
                         "title": "SPI Ethernet module #1",
                         "type": "choice"
@@ -5652,7 +5652,7 @@
                         ],
                         "depends_on": "ETHERNET_SPI_SUPPORT",
                         "help": "Select which kind of SPI Ethernet will be used as the second module. Multiple SPI modules can be\nconnected to one SPI interface and can be separately accessed based on state of associated Chip\nSelect (CS).",
-                        "id": "ethernet-configuration-spi-ethernet-spi-ethernet-module-2-gsFiles-Projects-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-420",
+                        "id": "ethernet-configuration-spi-ethernet-spi-ethernet-module-2-gsFiles-Projects-github-PlaneTracker-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-420",
                         "name": "ETHERNET_SPI_DEV1",
                         "title": "SPI Ethernet module #2",
                         "type": "choice"
@@ -5912,7 +5912,7 @@
                         ],
                         "depends_on": "(ETHERNET_SPI_DEV0_ENC28J60 || ETHERNET_SPI_DEV1_ENC28J60) && ETHERNET_SPI_SUPPORT",
                         "help": "Select ENC28J60 Duplex operation mode.",
-                        "id": "ethernet-configuration-spi-ethernet-duplex-mode-gsFiles-Projects-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-665",
+                        "id": "ethernet-configuration-spi-ethernet-duplex-mode-gsFiles-Projects-github-PlaneTracker-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-665",
                         "name": "ETHERNET_ENC28J60_DUPLEX_MODE",
                         "title": "Duplex Mode",
                         "type": "choice"
@@ -5956,7 +5956,7 @@
                                 ],
                                 "depends_on": "ETHERNET_USE_PLCA && (ETHERNET_PHY_LAN867X || ETHERNET_SPI_DEV0_LAN865X || ETHERNET_SPI_DEV1_LAN865X)",
                                 "help": "Select a role of PLCA node.",
-                                "id": "ethernet-configuration-10base-t1s-plca-use-plca-plca-node-role-gsFiles-Projects-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-694",
+                                "id": "ethernet-configuration-10base-t1s-plca-use-plca-plca-node-role-gsFiles-Projects-github-PlaneTracker-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-694",
                                 "name": "ETHERNET_PLCA_NODE_ROLE",
                                 "title": "PLCA Node Role",
                                 "type": "choice"
@@ -6043,7 +6043,7 @@
                     }
                 ],
                 "depends_on": "ETHERNET_PHY_LAN867X || ETHERNET_SPI_DEV0_LAN865X || ETHERNET_SPI_DEV1_LAN865X",
-                "id": "ethernet-configuration-10base-t1s-plca-gsFiles-Projects-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-686",
+                "id": "ethernet-configuration-10base-t1s-plca-gsFiles-Projects-github-PlaneTracker-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-686",
                 "title": "10BASE-T1S PLCA",
                 "type": "menu"
             },
@@ -6102,7 +6102,7 @@
                 ],
                 "depends_on": "ETHERNET_INTERNAL_SUPPORT || ETHERNET_SPI_SUPPORT",
                 "help": null,
-                "id": "ethernet-configuration-board-specific-init-gsFiles-Projects-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-807",
+                "id": "ethernet-configuration-board-specific-init-gsFiles-Projects-github-PlaneTracker-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-807",
                 "name": "ETHERNET_BOARD_SPECIFIC_INIT",
                 "title": "Board Specific Init",
                 "type": "choice"
@@ -6119,7 +6119,7 @@
             }
         ],
         "depends_on": null,
-        "id": "ethernet-configuration-gsFiles-Projects-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-1",
+        "id": "ethernet-configuration-gsFiles-Projects-github-PlaneTracker-esp32-https_request-managed_components-espressif__ethernet_init-Kconfig.projbuild-1",
         "title": "Ethernet Configuration",
         "type": "menu"
     },
