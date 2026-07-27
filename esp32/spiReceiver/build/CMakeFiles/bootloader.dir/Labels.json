@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/gsFiles/Projects/github/PlaneTracker/esp32/spiReceiver/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/gsFiles/Projects/github/PlaneTracker/esp32/spiReceiver/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/gsFiles/Projects/github/PlaneTracker/esp32/spiReceiver/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/gsFiles/Projects/github/PlaneTracker/esp32/spiReceiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/gsFiles/Projects/github/PlaneTracker/esp32/spiReceiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/gsFiles/Projects/github/PlaneTracker/esp32/spiReceiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/gsFiles/Projects/github/PlaneTracker/esp32/spiReceiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/gsFiles/Projects/github/PlaneTracker/esp32/spiReceiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/gsFiles/Projects/github/PlaneTracker/esp32/spiReceiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/gsFiles/Projects/github/PlaneTracker/esp32/spiReceiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
