@@ -1,0 +1,6 @@
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
+"-specs=/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/specs/picolibc.specs"
