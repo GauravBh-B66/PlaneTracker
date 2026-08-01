@@ -8,7 +8,7 @@
 
 #define SERVER_URL_MAX_SZ 256
 
-static const char *TAG = "Info Collector";
+static const char *TAG = "HTTPS Handler";
 
 
 const char OPENSKY_REQUEST[] = "GET " WEB_URL " HTTP/1.1\r\n"

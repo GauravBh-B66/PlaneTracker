@@ -1,2 +1,0 @@
-source /gsFiles/Projects/github/PlaneTracker/esp32/spiReceiver/build/bootloader/gdbinit/symbols
-source /gsFiles/Projects/github/PlaneTracker/esp32/spiReceiver/build/bootloader/gdbinit/connect

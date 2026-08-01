@@ -1,7 +1,0 @@
--Wno-frame-address
--mlongcalls
--fno-builtin-memcpy
--fno-builtin-memset
--fno-builtin-bzero
-"-specs=/gsFiles/Projects/github/PlaneTracker/esp32/spiReceiver/build/specs/picolibc.specs"
--fno-rtti
