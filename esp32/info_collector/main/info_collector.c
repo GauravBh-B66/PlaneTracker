@@ -1,4 +1,5 @@
 #include "https_handler.h"
+#include "spi_handler.h"
 
 
 static const char *TAG = "Info Collector";
