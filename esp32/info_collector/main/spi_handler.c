@@ -1,4 +1,15 @@
-#include "spi_handler.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <inttypes.h>
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "esp_system.h"
+#include "driver/spi_slave.h"
+#include "driver/gpio.h"
+#include "esp_log.h"
+
+
 
 /* Defining pins for ESP32 which uses MISO, MOSI, CS, SCLK */
 #define ESP_HOST    SPI3_HOST                              // Selecting host(ESP32) to work in VSPI mode
@@ -9,7 +20,8 @@
 #define SPI_TAG "spi_protocol"
 
 esp_err_t ret;
-spi_device_handle_t spi;
+spi_slave_transaction_t t = {0};
+
 
 void spi_initSlave(char *sendbuf, char *recvbuf)
 {
@@ -34,16 +46,17 @@ void spi_initSlave(char *sendbuf, char *recvbuf)
     ret = spi_slave_initialize(ESP_HOST, &buscfg, &slvcfg, SPI_DMA_CH_AUTO);       // Initialize the SPI bus
     assert(ret == ESP_OK);
 
-    sendbuf = spi_bus_dma_memory_alloc(RCV_HOST, 129, 0);
-    recvbuf = spi_bus_dma_memory_alloc(RCV_HOST, 129, 0);
+    sendbuf = spi_bus_dma_memory_alloc(ESP_HOST, 129, 0);
+    recvbuf = spi_bus_dma_memory_alloc(ESP_HOST, 129, 0);
     assert(sendbuf && recvbuf);
-    spi_slave_transaction_t t = {0};
 }
 
-void spi_sendData(void)     // Function to write data at given address
+void spi_sendData(char *sendbuf, char *recvbuf)     // Function to write data at given address
 {
+    int n = 0;
     while (1) {
         //Clear receive buffer, set send buffer to something sane
+        
         memset(recvbuf, 0xA5, 129);
         sprintf(sendbuf, "This is the receiver, sending data for transmission number %04d.", n);
 
@@ -57,19 +70,19 @@ void spi_sendData(void)     // Function to write data at given address
         .post_setup_cb callback that is called as soon as a transaction is ready, to let the master know it is free to transfer
         data.
         */
-        ret = spi_slave_transmit(RCV_HOST, &t, portMAX_DELAY);
+        ret = spi_slave_transmit(ESP_HOST, &t, portMAX_DELAY);
 
         //spi_slave_transmit does not return until the master has done a transmission, so by here we have sent our data and
         //received data from the master. Print it.
         printf("Received: %s\n", recvbuf);
 
         //pause the slave to save power, transaction will also be paused
-        ret = spi_slave_disable(RCV_HOST);
+        ret = spi_slave_disable(ESP_HOST);
         if (ret == ESP_OK) {
             printf("slave paused ...\n");
         }
         vTaskDelay(100);    //now is able to sleep or do something to save power, any following transaction will be ignored
-        ret = spi_slave_enable(RCV_HOST);
+        ret = spi_slave_enable(ESP_HOST);
         if (ret == ESP_OK) {
             printf("slave ready !\n");
         }
@@ -79,14 +92,10 @@ void spi_sendData(void)     // Function to write data at given address
 
 int app_main(void)
 {
-    vSpiInit();
-
-    uint8_t addr = 0x22; // address = 0x22
-    uint8_t data = 0xAA; // data = 0xAA
-
-    spi_read_data(addr); // Read the value present at address (0x22)
-    spi_write_data(addr, data); // Write the value '0xAA' at the location 0x22
-    spi_read_data(addr);
+    char *sendbuf = spi_bus_dma_memory_alloc(ESP_HOST, 129, 0);
+    char *recvbuf = spi_bus_dma_memory_alloc(ESP_HOST, 129, 0);
+    spi_initSlave(sendbuf, recvbuf);    
+    spi_sendData(sendbuf, recvbuf);
     
     return 0;
 }
