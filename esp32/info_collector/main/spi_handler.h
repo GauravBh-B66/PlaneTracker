@@ -12,5 +12,5 @@
 
 
 /* Declaring the funtions which are used in the program */
-void spi_initSlave(char*, char *);
+void spi_initSlave(char**, char **);
 void spi_sendData(char*, char *);

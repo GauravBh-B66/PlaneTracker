@@ -1,39 +1,27 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <inttypes.h>
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-#include "esp_system.h"
-#include "driver/spi_slave.h"
-#include "driver/gpio.h"
-#include "esp_log.h"
+#include "spi_handler.h"
 
 
 
 /* Defining pins for ESP32 which uses MISO, MOSI, CS, SCLK */
-#define ESP_HOST    SPI3_HOST                              // Selecting host(ESP32) to work in VSPI mode
-#define GPIO_MISO   GPIO_NUM_38                            // MISO pin is present at GPIO_NUM_32
-#define GPIO_MOSI   GPIO_NUM_23                            // MOSI pin is present at GPIO_NUM_23
-#define GPIO_SCLK   GPIO_NUM_18                            // SCLK pin is present at GPIO_NUM_18
-#define GPIO_CS     GPIO_NUM_5                             // CS' pin is present at GPIO_NUM_5
+#define ESP_HOST    SPI3_HOST                              
+#define GPIO_MISO   GPIO_NUM_19                            
+#define GPIO_MOSI   GPIO_NUM_23                            
+#define GPIO_SCLK   GPIO_NUM_18                            
+#define GPIO_CS     GPIO_NUM_5                             
 #define SPI_TAG "spi_protocol"
 
 esp_err_t ret;
 spi_slave_transaction_t t = {0};
 
 
-void spi_initSlave(char *sendbuf, char *recvbuf)
-{
-    // Setting the CS' pin to work in OUTPUT mode
-
-    spi_bus_config_t buscfg = {                                         // Provide details to the SPI_bus_sturcture of pins and maximum data size
+void spi_initSlave(char **sendbuf, char **recvbuf){
+    spi_bus_config_t buscfg = {                                         
         .miso_io_num = GPIO_MISO,
         .mosi_io_num = GPIO_MOSI,
         .sclk_io_num = GPIO_SCLK,
         .quadwp_io_num = -1,
         .quadhd_io_num = -1,
-        .max_transfer_sz = 512 * 8                                      // 4095 bytes is the max size of data that can be sent because of hardware limitations
+        .max_transfer_sz = 512 * 8                                     
     };
 
     spi_slave_interface_config_t slvcfg = {
@@ -43,33 +31,33 @@ void spi_initSlave(char *sendbuf, char *recvbuf)
         .flags = 0
     };
 
-    ret = spi_slave_initialize(ESP_HOST, &buscfg, &slvcfg, SPI_DMA_CH_AUTO);       // Initialize the SPI bus
+    ret = spi_slave_initialize(ESP_HOST, &buscfg, &slvcfg, SPI_DMA_CH_AUTO);       
     assert(ret == ESP_OK);
 
-    sendbuf = spi_bus_dma_memory_alloc(ESP_HOST, 129, 0);
-    recvbuf = spi_bus_dma_memory_alloc(ESP_HOST, 129, 0);
+    *sendbuf = spi_bus_dma_memory_alloc(ESP_HOST, 128, 0);
+    *recvbuf = spi_bus_dma_memory_alloc(ESP_HOST, 128, 0);
     assert(sendbuf && recvbuf);
+
+    printf("SPI Initialization: Done.\n");
+    printf("Sendbuf: %p, Recvbuf: %p. \n", sendbuf, recvbuf);
 }
 
-void spi_sendData(char *sendbuf, char *recvbuf)     // Function to write data at given address
+void spi_sendData(char *sendbuf, char *recvbuf)
 {
+    printf("SPI send data: Initiated.\n");
     int n = 0;
     while (1) {
         //Clear receive buffer, set send buffer to something sane
         
-        memset(recvbuf, 0xA5, 129);
+        memset(recvbuf, 0xA5, 128);
         sprintf(sendbuf, "This is the receiver, sending data for transmission number %04d.", n);
+        // printf("SPI send data: Inside while loop.\n");
 
         //Set up a transaction of 128 bytes to send/receive
         t.length = 128 * 8;
         t.tx_buffer = sendbuf;
         t.rx_buffer = recvbuf;
-        /* This call enables the SPI slave interface to send/receive to the sendbuf and recvbuf. The transaction is
-        initialized by the SPI master, however, so it will not actually happen until the master starts a hardware transaction
-        by pulling CS low and pulsing the clock etc. In this specific example, we use the handshake line, pulled up by the
-        .post_setup_cb callback that is called as soon as a transaction is ready, to let the master know it is free to transfer
-        data.
-        */
+ 
         ret = spi_slave_transmit(ESP_HOST, &t, portMAX_DELAY);
 
         //spi_slave_transmit does not return until the master has done a transmission, so by here we have sent our data and
@@ -92,10 +80,10 @@ void spi_sendData(char *sendbuf, char *recvbuf)     // Function to write data at
 
 int app_main(void)
 {
-    char *sendbuf = spi_bus_dma_memory_alloc(ESP_HOST, 129, 0);
-    char *recvbuf = spi_bus_dma_memory_alloc(ESP_HOST, 129, 0);
-    spi_initSlave(sendbuf, recvbuf);    
+    char *sendbuf = NULL;
+    char *recvbuf = NULL;
+    spi_initSlave(&sendbuf, &recvbuf); 
     spi_sendData(sendbuf, recvbuf);
-    
+
     return 0;
 }
