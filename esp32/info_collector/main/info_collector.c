@@ -7,7 +7,11 @@ static const char *TAG = "Info Collector";
 /* Timer interval once every day (24 Hours) */
 #define TIME_PERIOD (86400000000ULL)
 
-
+static void spi_dataShare_task(void *pvparameters)
+{
+    //if CE interrrupt is received, start sending the data.
+    vTaskDelete(NULL);
+}
 static void https_request_task(void *pvparameters)
 {
     ESP_LOGI(TAG, "Start OpenSky Engine");

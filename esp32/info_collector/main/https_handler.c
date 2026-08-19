@@ -1,4 +1,5 @@
 #include "https_handler.h"
+#include "cJSON.h"
 
 /* Constants that aren't configurable in menuconfig */
 #define WEB_SERVER "opensky-network.org"
@@ -83,6 +84,22 @@ void https_get_request(esp_tls_cfg_t cfg, const char *WEB_SERVER_URL, const char
             putchar(buf[i]);
         }
         putchar('\n'); // JSON output doesn't have a newline at end
+
+        //Parsing the JSON data
+        const cJSON *icaoAddress = NULL;
+        cJSON *jsonData = cJSON_Parse(buf);
+        if (jsonData == NULL){
+            const char *error_ptr = cJSON_GetErrorPtr();
+            if (error_ptr != NULL)
+            {
+                fprintf(stderr, "Error before: %s\n", error_ptr);
+            }
+            status = 0;
+            goto exit;
+        }
+
+        icaoAddress = cJSON_GetObjectItemCaseSensitive(jsonData, "icao24");
+
     } while (1);
 
 #ifdef CONFIG_EXAMPLE_CLIENT_SESSION_TICKETS
