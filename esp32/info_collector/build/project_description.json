@@ -1,7 +1,7 @@
 {
     "version":            "1.3",
     "project_name":       "https_request",
-    "project_version":    "b57e3ed",
+    "project_version":    "0082d71-dirty",
     "project_path":       "/gsFiles/Projects/github/PlaneTracker/esp32/info_collector",
     "idf_path":           "/gsFiles/Projects/tools/esp/v6.0.1/esp-idf",
     "build_dir":          "/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build",
@@ -951,11 +951,11 @@
             "type": "LIBRARY",
             "lib": "__idf_main",
             "reqs": [],
-            "priv_reqs": [ "esp-tls", "esp_wifi", "esp_timer", "nvs_flash", "protocol_examples_common" ],
+            "priv_reqs": [ "esp-tls", "esp_wifi", "esp_timer", "nvs_flash", "esp_driver_spi", "esp_driver_gpio", "protocol_examples_common" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "protocol_examples_common" ],
             "file": "/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/main/libmain.a",
-            "sources": [ "/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/main/info_collector.c", "/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/main/time_sync.c", "/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/main/https_handler.c" ],
+            "sources": [ "/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/main/info_collector.c", "/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/main/time_sync.c", "/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/main/https_handler.c", "/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/main/spi_handler.c", "/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/main/cJSON.c" ],
             "include_dirs": [ "include" ]
         },
         "mbedtls": {
@@ -2955,7 +2955,7 @@
             "source": "project_components",
             "lib": "__idf_main",
             "reqs": [],
-            "priv_reqs": [ "esp-tls", "esp_wifi", "esp_timer", "nvs_flash", "protocol_examples_common" ],
+            "priv_reqs": [ "esp-tls", "esp_wifi", "esp_timer", "nvs_flash", "esp_driver_spi", "esp_driver_gpio", "protocol_examples_common" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "protocol_examples_common" ],
             "include_dirs": [ "include" ]

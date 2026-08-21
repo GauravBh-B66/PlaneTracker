@@ -122,8 +122,8 @@
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/wpa_supplicant/libwpa_supplicant.a
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_coex/libesp_coex.a
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_wifi/libesp_wifi.a
-/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/libconsole.a
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_driver_spi/libesp_driver_spi.a
+/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/libconsole.a
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_driver_spi/libesp_driver_spi.a
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_eth/libesp_eth.a
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/espressif__ethernet_init/libespressif__ethernet_init.a

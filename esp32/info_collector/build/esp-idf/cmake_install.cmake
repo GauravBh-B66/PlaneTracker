@@ -364,12 +364,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/cmake_install.cmake")
+  include("/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_driver_spi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_driver_spi/cmake_install.cmake")
+  include("/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

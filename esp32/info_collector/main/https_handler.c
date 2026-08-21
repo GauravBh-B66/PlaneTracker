@@ -94,11 +94,13 @@ void https_get_request(esp_tls_cfg_t cfg, const char *WEB_SERVER_URL, const char
             {
                 fprintf(stderr, "Error before: %s\n", error_ptr);
             }
-            status = 0;
             goto exit;
         }
 
         icaoAddress = cJSON_GetObjectItemCaseSensitive(jsonData, "icao24");
+        if (cJSON_IsString(icaoAddress) && (icaoAddress->valuestring != NULL)){
+            printf("Checking monitor \"%s\"\n", icaoAddress->valuestring);
+        }
 
     } while (1);
 

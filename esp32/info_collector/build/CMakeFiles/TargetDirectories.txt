@@ -614,13 +614,6 @@
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_wifi/CMakeFiles/install.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_wifi/CMakeFiles/install/local.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_wifi/CMakeFiles/install/strip.dir
-/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/CMakeFiles/__idf_console.dir
-/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/CMakeFiles/edit_cache.dir
-/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/CMakeFiles/rebuild_cache.dir
-/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/CMakeFiles/list_install_components.dir
-/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/CMakeFiles/install.dir
-/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/CMakeFiles/install/local.dir
-/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/CMakeFiles/install/strip.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_driver_spi/CMakeFiles/edit_cache.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_driver_spi/CMakeFiles/rebuild_cache.dir
@@ -628,6 +621,13 @@
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_driver_spi/CMakeFiles/install.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_driver_spi/CMakeFiles/install/local.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_driver_spi/CMakeFiles/install/strip.dir
+/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/CMakeFiles/__idf_console.dir
+/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/CMakeFiles/edit_cache.dir
+/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/CMakeFiles/rebuild_cache.dir
+/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/CMakeFiles/list_install_components.dir
+/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/CMakeFiles/install.dir
+/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/CMakeFiles/install/local.dir
+/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/console/CMakeFiles/install/strip.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_hal_ieee802154/CMakeFiles/edit_cache.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_hal_ieee802154/CMakeFiles/rebuild_cache.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/esp-idf/esp_hal_ieee802154/CMakeFiles/list_install_components.dir
