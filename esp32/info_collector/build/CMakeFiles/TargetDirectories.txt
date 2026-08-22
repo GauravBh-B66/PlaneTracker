@@ -5,14 +5,14 @@
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/flash.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/bootloader.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/_project_elf_src.dir
-/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/https_request.elf.dir
+/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/Info_Collector.elf.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/size.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/size-files.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/size-components.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/uf2.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/uf2-app.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/__ldgen_output_sections.ld.dir
-/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/gen_https_request_binary.dir
+/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/gen_Info_Collector_binary.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/gen_project_binary.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/app.dir
 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/CMakeFiles/app-flash.dir

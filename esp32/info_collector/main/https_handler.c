@@ -4,6 +4,7 @@
 /* Constants that aren't configurable in menuconfig */
 #define WEB_SERVER "opensky-network.org"
 #define WEB_PORT "443"
+// #define WEB_URL "https://opensky-network.org/"
 #define WEB_URL "https://opensky-network.org/api/states/all?icao24=78112E"
 
 
@@ -128,6 +129,24 @@ void https_get_request_using_crt_bundle(void)
     esp_tls_cfg_t cfg = {
         .crt_bundle_attach = esp_crt_bundle_attach,
     };
+
+    //Synchronize time using NTP
+    esp_sntp_config_t config = ESP_NETIF_SNTP_DEFAULT_CONFIG("np.pool.ntp.org");
+    esp_netif_sntp_init(&config);
+    if (esp_netif_sntp_sync_wait(pdMS_TO_TICKS(10000)) != ESP_OK) {
+        printf("Failed to update system time within 10s timeout");
+    }
+
+    // time_t now = time(NULL);
+    // struct tm tm_utc;
+    // gmtime_r(&now, &tm_utc);
+
+    // char buf[64];
+    // strftime(buf, sizeof(buf), "%Y-%m-%d %H:%M:%S UTC", &tm_utc);
+
+    // ESP_LOGI(TAG, "TLS verification time: %s", buf);
+    // ESP_LOGI(TAG, "TLS verification timestamp: %lld", (long long)now);
+    
     https_get_request(cfg, WEB_URL, OPENSKY_REQUEST);
 }
 #endif // CONFIG_MBEDTLS_CERTIFICATE_BUNDLE && CONFIG_EXAMPLE_USING_ESP_TLS_MBEDTLS

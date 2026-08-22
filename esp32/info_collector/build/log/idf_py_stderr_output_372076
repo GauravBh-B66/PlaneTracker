@@ -1,0 +1,188 @@
+Command: /gsFiles/user_gs/home_user_gsb/.espressif/python_env/idf6.0_py3.13_env/bin/python /gsFiles/Projects/tools/esp/v6.0.1/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/Info_Collector.elf /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/bootloader/bootloader.elf -m '/gsFiles/user_gs/home_user_gsb/.espressif/python_env/idf6.0_py3.13_env/bin/python' '/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/tools/idf.py'
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2227[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m27[0m
+[0m--- 0x4008176c: [0;33mcall_start_cpu1[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m222[0m
+[0m--- 0x400d3718: [0;33m__esp_system_init_fn_init_efuse_check[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/efuse/src/esp_efuse_startup.c[0m[0m:[1;31m37[0m
+[0m--- 0x400d4528: [0;33m__esp_system_init_fn_init_show_cpu_freq[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/startup_funcs.c[0m[0m:[1;31m53[0m
+[0m--- 0x400d3658: [0;33m__esp_system_init_fn_init_show_app_info[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_app_format/esp_app_desc.c[0m[0m:[1;31m123[0m
+[0m--- 0x400d372c: [0;33m__esp_system_init_fn_init_efuse_show_app_info[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/efuse/src/esp_efuse_startup.c[0m[0m:[1;31m47[0m
+[0m--- 0x400d5980: [0;33m__esp_system_init_fn_init_heap[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap/heap_caps_init.c[0m[0m:[1;31m26[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x40000000: [0;33m_WindowOverflow4[0m[0m in [0;32mROM[0m
+[0m--- 0x40000000: [0;33m_WindowOverflow4[0m[0m in [0;32mROM[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x40082000: [0;33mefuse_hal_chip_revision[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/hal/efuse_hal.c[0m[0m:[1;31m25[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x40082000: [0;33mefuse_hal_chip_revision[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/hal/efuse_hal.c[0m[0m:[1;31m25[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x40082000: [0;33mefuse_hal_chip_revision[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/hal/efuse_hal.c[0m[0m:[1;31m25[0m
+[0m--- 0x40084000: [0;33mbootloader_flash_cs_timing_config[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32.c[0m[0m:[1;31m53[0m
+[0m--- 0x40082000: [0;33mefuse_hal_chip_revision[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/hal/efuse_hal.c[0m[0m:[1;31m25[0m
+[0m--- 0x40084000: [0;33mbootloader_flash_cs_timing_config[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32.c[0m[0m:[1;31m53[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x40084000: [0;33mbootloader_flash_cs_timing_config[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32.c[0m[0m:[1;31m53[0m
+[0m--- 0x40086000: [0;33mpll_correct_dcap[0m[0m at [0;32m/home/lxf/gittree/chip7.1_phy/chip_7.1/board_code/app_test/pp/phy/phy_chip_v7_ana.c[0m[0m:[1;31m1790[0m
+[0m--- 0x40084000: [0;33mbootloader_flash_cs_timing_config[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32.c[0m[0m:[1;31m53[0m
+[0m--- 0x40086000: [0;33mpll_correct_dcap[0m[0m at [0;32m/home/lxf/gittree/chip7.1_phy/chip_7.1/board_code/app_test/pp/phy/phy_chip_v7_ana.c[0m[0m:[1;31m1790[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x40086000: [0;33mpll_correct_dcap[0m[0m at [0;32m/home/lxf/gittree/chip7.1_phy/chip_7.1/board_code/app_test/pp/phy/phy_chip_v7_ana.c[0m[0m:[1;31m1790[0m
+[0m--- 0x40088000: [0;33mmwdt_ll_set_sys_reset_length[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_wdt/esp32/include/hal/mwdt_ll.h[0m[0m:[1;31m191[0m
+[0m--- (inlined by) [0;33mwdt_hal_init[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_wdt/wdt_hal_iram.c[0m[0m:[1;31m80[0m
+[0m--- 0x40086000: [0;33mpll_correct_dcap[0m[0m at [0;32m/home/lxf/gittree/chip7.1_phy/chip_7.1/board_code/app_test/pp/phy/phy_chip_v7_ana.c[0m[0m:[1;31m1790[0m
+[0m--- 0x40088000: [0;33mmwdt_ll_set_sys_reset_length[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_wdt/esp32/include/hal/mwdt_ll.h[0m[0m:[1;31m191[0m
+[0m--- (inlined by) [0;33mwdt_hal_init[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_wdt/wdt_hal_iram.c[0m[0m:[1;31m80[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x40088000: [0;33mmwdt_ll_set_sys_reset_length[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_wdt/esp32/include/hal/mwdt_ll.h[0m[0m:[1;31m191[0m
+[0m--- (inlined by) [0;33mwdt_hal_init[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_wdt/wdt_hal_iram.c[0m[0m:[1;31m80[0m
+[0m--- 0x4008a000: [0;33mvPortYieldFromInt[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m645[0m
+[0m--- 0x40088000: [0;33mmwdt_ll_set_sys_reset_length[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_wdt/esp32/include/hal/mwdt_ll.h[0m[0m:[1;31m191[0m
+[0m--- (inlined by) [0;33mwdt_hal_init[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_wdt/wdt_hal_iram.c[0m[0m:[1;31m80[0m
+[0m--- 0x4008a000: [0;33mvPortYieldFromInt[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m645[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x4008a000: [0;33mvPortYieldFromInt[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m645[0m
+[0m--- 0x4008c000: [0;33mtlsf_malloc[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap/tlsf/tlsf.c[0m[0m:[1;31m441[0m
+[0m--- 0x4008a000: [0;33mvPortYieldFromInt[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S[0m[0m:[1;31m645[0m
+[0m--- 0x4008c000: [0;33mtlsf_malloc[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap/tlsf/tlsf.c[0m[0m:[1;31m441[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x4008c000: [0;33mtlsf_malloc[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap/tlsf/tlsf.c[0m[0m:[1;31m441[0m
+[0m--- 0x4008e000: [0;33msta_input[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x4008c000: [0;33mtlsf_malloc[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/heap/tlsf/tlsf.c[0m[0m:[1;31m441[0m
+[0m--- 0x4008e000: [0;33msta_input[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x4008e000: [0;33msta_input[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x40090000: [0;33mrcUpdateTxDoneAmpdu2[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x4008e000: [0;33msta_input[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x40090000: [0;33mrcUpdateTxDoneAmpdu2[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x40090000: [0;33mrcUpdateTxDoneAmpdu2[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x40092000: [0;33mpm_on_beacon_rx[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x40090000: [0;33mrcUpdateTxDoneAmpdu2[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x40092000: [0;33mpm_on_beacon_rx[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x40092000: [0;33mpm_on_beacon_rx[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x40094000: [0;33mspi_flash_brownout_need_reset[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/flash_brownout_hook.c[0m[0m:[1;31m36[0m
+[0m--- 0x40092000: [0;33mpm_on_beacon_rx[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x40094000: [0;33mspi_flash_brownout_need_reset[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/flash_brownout_hook.c[0m[0m:[1;31m36[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x40094000: [0;33mspi_flash_brownout_need_reset[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/flash_brownout_hook.c[0m[0m:[1;31m36[0m
+[0m--- 0x40094000: [0;33mspi_flash_brownout_need_reset[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/flash_brownout_hook.c[0m[0m:[1;31m36[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2019[0m
+[0m--- 0x400d3bd8: [0;33m__esp_system_init_fn_esp_timer_init_nonos[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_timer/src/esp_timer_init.c[0m[0m:[1;31m28[0m
+[0m--- 0x400d6dd4: [0;33m__esp_system_init_fn_init_libc[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/init.c[0m[0m:[1;31m12[0m
+[0m--- 0x400d456c: [0;33m__esp_system_init_fn_init_brownout[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/startup_funcs.c[0m[0m:[1;31m68[0m
+[0m--- 0x400d457c: [0;33m__esp_system_init_fn_init_newlib_time[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/startup_funcs.c[0m[0m:[1;31m93[0m
+[0m--- 0x400d821c: [0;33m__esp_system_init_fn_init_vfs_uart[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m1153[0m
+[0m--- 0x400d984c: [0;33m__esp_system_init_fn_init_vfs_nullfs[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/vfs/nullfs.c[0m[0m:[1;31m322[0m
+[0m--- 0x400d35ac: [0;33m__esp_system_init_fn_init_vfs_console[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_stdio/stdio_vfs.c[0m[0m:[1;31m264[0m
+[0m--- 0x400d6de0: [0;33m__esp_system_init_fn_init_libc_stdio[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/init.c[0m[0m:[1;31m18[0m
+[0m--- 0x400d3f6c: [0;33m__esp_system_init_fn_init_flash[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/spi_flash/esp_flash_spi_init.c[0m[0m:[1;31m658[0m
+[0m--- 0x400d37b8: [0;33m__esp_system_init_fn_init_efuse[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/efuse/src/esp_efuse_startup.c[0m[0m:[1;31m158[0m
+[0m--- 0x400df698: [0;33m__esp_system_init_fn_esp_timer_init_os[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_timer/src/esp_timer.c[0m[0m:[1;31m568[0m
+[0m--- 0x4017289c: [0;33m__esp_system_init_fn_esp_security_init[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_security/src/init.c[0m[0m:[1;31m57[0m
+[0m--- 0x400f48e0: [0;33m__esp_system_init_fn_mbedtls_psa_crypto_init_fn[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/port/esp_psa_crypto_init.c[0m[0m:[1;31m23[0m
+[0m--- 0x400d4588: [0;33m__esp_system_init_fn_init_disable_rtc_wdt[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/startup_funcs.c[0m[0m:[1;31m139[0m
+[0m--- 0x400e3530: [0;33mesp_netif_new_api[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c[0m[0m:[1;31m800[0m
+[0m--- 0x400e2c8c: [0;33mesp_netif_set_mac_api[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c[0m[0m:[1;31m1139[0m
+[0m--- 0x400e3714: [0;33mesp_netif_start_api[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c[0m[0m:[1;31m1224[0m
+[0m--- 0x40130528: [0;33mcnx_start_handoff_cb[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400e6090: [0;33mwifi_default_action_sta_connected[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi/src/wifi_default.c[0m[0m:[1;31m98[0m
+[0m--- 0x400e3930: [0;33mesp_netif_up_api[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c[0m[0m:[1;31m1868[0m
+[0m--- 0x400e3190: [0;33mesp_netif_dhcpc_start_api[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c[0m[0m:[1;31m1660[0m
+[0m--- 0x400de638: [0;33mexample_handler_on_wifi_connect[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c[0m[0m:[1;31m64[0m
+[0m--- 0x400e32b4: [0;33mesp_netif_create_ip6_linklocal_api[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c[0m[0m:[1;31m2331[0m
+[0m--- 0x400e3d78: [0;33mesp_netif_update_default_netif_lwip[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c[0m[0m:[1;31m340[0m
+[0m--- 0x400de3c4: [0;33mexample_handler_on_sta_got_ipv6[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c[0m[0m:[1;31m89[0m
+[0m--- 0x400e3d78: [0;33mesp_netif_update_default_netif_lwip[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c[0m[0m:[1;31m340[0m
+[0m--- 0x400e5ed4: [0;33mwifi_default_action_sta_got_ip[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_wifi/src/wifi_default.c[0m[0m:[1;31m162[0m
+[0m--- 0x400de5b0: [0;33mexample_handler_on_sta_got_ip[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c[0m[0m:[1;31m72[0m
+[0m--- 0x400de1f8: [0;33mprint_all_ips_tcpip[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common/connect.c[0m[0m:[1;31m57[0m
+[0m--- 0x40173218: [0;33mtcpip_exec_api[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c[0m[0m:[1;31m790[0m
+[0m--- 0x400e42bc: [0;33msntp_init_api[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_sntp.c[0m[0m:[1;31m54[0m
+[0m--- 0x40173218: [0;33mtcpip_exec_api[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c[0m[0m:[1;31m790[0m
+[0m--- 0x400e3d78: [0;33mesp_netif_update_default_netif_lwip[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c[0m[0m:[1;31m340[0m
+[0m--- 0x400de3c4: [0;33mexample_handler_on_sta_got_ipv6[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c[0m[0m:[1;31m89[0m
+[0m--- 0x4008439a: [0;33mesp_crosscore_isr[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/crosscore_int.c[0m[0m:[1;31m74[0m
+[0m--- 0x400834b5: [0;33m_xt_lowint1[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1232[0m
+[0m--- 0x400d7edc: [0;33muart_ll_get_txfifo_len[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_uart/esp32/include/hal/uart_ll.h[0m[0m:[1;31m451[0m
+[0m--- (inlined by) [0;33muart_tx_char[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m190[0m
+[0m--- 0x400d819c: [0;33muart_write[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m245[0m
+[0m--- 0x400d8c01: [0;33mesp_vfs_write[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/vfs/vfs_calls.c[0m[0m:[1;31m77[0m
+[0m--- 0x400d72be: [0;33mwrite[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/syscalls.c[0m[0m:[1;31m51[0m
+[0m--- 0x400d34d5: [0;33mconsole_write[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_stdio/stdio_vfs.c[0m[0m:[1;31m84[0m
+[0m--- 0x400d8c01: [0;33mesp_vfs_write[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/vfs/vfs_calls.c[0m[0m:[1;31m77[0m
+[0m--- 0x400d72be: [0;33mwrite[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/syscalls.c[0m[0m:[1;31m51[0m
+[0m--- 0x40176e09: [0;33mbufio_write[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/stdio_private.h[0m[0m:[1;31m183[0m
+[0m--- (inlined by) [0;33m__bufio_flush_locked[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/bufio.c[0m[0m:[1;31m62[0m
+[0m--- 0x4016f7fa: [0;33m__bufio_put[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/bufio.c[0m[0m:[1;31m187[0m
+[0m--- 0x40170a2e: [0;33mvfprintf[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/vfprintf.c[0m[0m:[1;31m1184[0m
+[0m--- 0x401717fb: [0;33mvprintf[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/vprintf.c[0m[0m:[1;31m38[0m
+[0m--- 0x4008cca7: [0;33mesp_log_va[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/log.c[0m[0m:[1;31m43[0m
+[0m--- (inlined by) [0;33mesp_log[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/log.c[0m[0m:[1;31m88[0m
+[0m--- 0x400f481a: [0;33mmbedtls_esp_debug[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/port/mbedtls_debug.c[0m[0m:[1;31m79[0m
+[0m--- 0x400f49d7: [0;33mdebug_send_line[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/debug.c[0m[0m:[1;31m46[0m
+[0m--- 0x400f4c9a: [0;33mmbedtls_debug_print_buf[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/debug.c[0m[0m:[1;31m144[0m
+[0m--- 0x400e8098: [0;33mssl_prepare_record_content[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_msg.c[0m[0m:[1;31m3783[0m
+[0m--- (inlined by) [0;33mssl_get_next_record[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_msg.c[0m[0m:[1;31m4778[0m
+[0m--- (inlined by) [0;33mmbedtls_ssl_read_record[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_msg.c[0m[0m:[1;31m4033[0m
+[0m--- 0x400f2aea: [0;33mssl_tls13_certificate_request_coordinate[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_client.c[0m[0m:[1;31m2366[0m
+[0m--- (inlined by) [0;33mssl_tls13_process_certificate_request[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_client.c[0m[0m:[1;31m2519[0m
+[0m--- (inlined by) [0;33mmbedtls_ssl_tls13_handshake_client_step[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_client.c[0m[0m:[1;31m3087[0m
+[0m--- 0x400e9416: [0;33mmbedtls_ssl_handshake_step[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c[0m[0m:[1;31m4153[0m
+[0m--- (inlined by) [0;33mmbedtls_ssl_handshake_step[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c[0m[0m:[1;31m4110[0m
+[0m--- 0x400e9480: [0;33mmbedtls_ssl_handshake[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c[0m[0m:[1;31m4222[0m
+[0m--- (inlined by) [0;33mmbedtls_ssl_handshake[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c[0m[0m:[1;31m4199[0m
+[0m--- 0x400e21a5: [0;33mesp_mbedtls_handshake[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp_tls_mbedtls.c[0m[0m:[1;31m280[0m
+[0m--- 0x400e1835: [0;33mesp_tls_handshake[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp_tls.c[0m[0m:[1;31m130[0m
+[0m--- 0x400e1abf: [0;33mesp_tls_low_level_conn[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp_tls.c[0m[0m:[1;31m540[0m
+[0m--- 0x400e1bfc: [0;33mesp_tls_conn_new_sync[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp_tls.c[0m[0m:[1;31m571[0m
+[0m--- 0x400e1cd3: [0;33mesp_tls_conn_http_new_sync[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp_tls.c[0m[0m:[1;31m630[0m
+[0m--- 0x400dd45b: [0;33mhttps_get_request[0m[0m at [0;32m/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/main/https_handler.c[0m[0m:[1;31m34[0m
+[0m--- 0x400dd79b: [0;33mhttps_get_request_using_crt_bundle[0m[0m at [0;32m/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/main/https_handler.c[0m[0m:[1;31m149[0m
+[0m--- 0x400dd193: [0;33mhttps_request_task[0m[0m at [0;32m/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/main/info_collector.c[0m[0m:[1;31m19[0m
+[0m--- 0x4017b0f6: [0;33mvPortTaskWrapper[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m143[0m
+[0m--- 0x4008439a: [0;33mesp_crosscore_isr[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_system/crosscore_int.c[0m[0m:[1;31m74[0m
+[0m--- 0x400834b5: [0;33m_xt_lowint1[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1232[0m
+[0m--- 0x400d7ed7: [0;33muart_ll_get_txfifo_len[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_hal_uart/esp32/include/hal/uart_ll.h[0m[0m:[1;31m451[0m
+[0m--- (inlined by) [0;33muart_tx_char[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m190[0m
+[0m--- 0x400d819c: [0;33muart_write[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m245[0m
+[0m--- 0x400d8c01: [0;33mesp_vfs_write[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/vfs/vfs_calls.c[0m[0m:[1;31m77[0m
+[0m--- 0x400d72be: [0;33mwrite[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/syscalls.c[0m[0m:[1;31m51[0m
+[0m--- 0x400d34d5: [0;33mconsole_write[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_stdio/stdio_vfs.c[0m[0m:[1;31m84[0m
+[0m--- 0x400d8c01: [0;33mesp_vfs_write[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/vfs/vfs_calls.c[0m[0m:[1;31m77[0m
+[0m--- 0x400d72be: [0;33mwrite[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp_libc/src/syscalls.c[0m[0m:[1;31m51[0m
+[0m--- 0x40176e09: [0;33mbufio_write[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/stdio_private.h[0m[0m:[1;31m183[0m
+[0m--- (inlined by) [0;33m__bufio_flush_locked[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/bufio.c[0m[0m:[1;31m62[0m
+[0m--- 0x4016f7fa: [0;33m__bufio_put[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/bufio.c[0m[0m:[1;31m187[0m
+[0m--- 0x40170a2e: [0;33mvfprintf[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/vfprintf.c[0m[0m:[1;31m1184[0m
+[0m--- 0x401717fb: [0;33mvprintf[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/vprintf.c[0m[0m:[1;31m38[0m
+[0m--- 0x4008cca7: [0;33mesp_log_va[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/log.c[0m[0m:[1;31m43[0m
+[0m--- (inlined by) [0;33mesp_log[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/log/src/log.c[0m[0m:[1;31m88[0m
+[0m--- 0x400f481a: [0;33mmbedtls_esp_debug[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/port/mbedtls_debug.c[0m[0m:[1;31m79[0m
+[0m--- 0x400f49d7: [0;33mdebug_send_line[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/debug.c[0m[0m:[1;31m46[0m
+[0m--- 0x400f4bca: [0;33mmbedtls_debug_print_msg[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/debug.c[0m[0m:[1;31m84[0m
+[0m--- 0x400e8e06: [0;33mmbedtls_ssl_print_extension[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c[0m[0m:[1;31m723[0m
+[0m--- 0x400e8e4b: [0;33mmbedtls_ssl_print_extensions[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c[0m[0m:[1;31m746[0m
+[0m--- 0x400f46a1: [0;33mmbedtls_ssl_tls13_parse_certificate[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_generic.c[0m[0m:[1;31m578[0m
+[0m--- (inlined by) [0;33mmbedtls_ssl_tls13_process_certificate[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_generic.c[0m[0m:[1;31m696[0m
+[0m--- 0x400f2de1: [0;33mssl_tls13_process_server_certificate[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_client.c[0m[0m:[1;31m2559[0m
+[0m--- (inlined by) [0;33mmbedtls_ssl_tls13_handshake_client_step[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls13_client.c[0m[0m:[1;31m3091[0m
+[0m--- 0x400e9416: [0;33mmbedtls_ssl_handshake_step[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c[0m[0m:[1;31m4153[0m
+[0m--- (inlined by) [0;33mmbedtls_ssl_handshake_step[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c[0m[0m:[1;31m4110[0m
+[0m--- 0x400e9480: [0;33mmbedtls_ssl_handshake[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c[0m[0m:[1;31m4222[0m
+[0m--- (inlined by) [0;33mmbedtls_ssl_handshake[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c[0m[0m:[1;31m4199[0m
+[0m--- 0x400e21a5: [0;33mesp_mbedtls_handshake[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp_tls_mbedtls.c[0m[0m:[1;31m280[0m
+[0m--- 0x400e1835: [0;33mesp_tls_handshake[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp_tls.c[0m[0m:[1;31m130[0m
+[0m--- 0x400e1abf: [0;33mesp_tls_low_level_conn[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp_tls.c[0m[0m:[1;31m540[0m
+[0m--- 0x400e1bfc: [0;33mesp_tls_conn_new_sync[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp_tls.c[0m[0m:[1;31m571[0m
+[0m--- 0x400e1cd3: [0;33mesp_tls_conn_http_new_sync[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/esp-tls/esp_tls.c[0m[0m:[1;31m630[0m
+[0m--- 0x400dd45b: [0;33mhttps_get_request[0m[0m at [0;32m/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/main/https_handler.c[0m[0m:[1;31m34[0m
+[0m--- 0x400dd79b: [0;33mhttps_get_request_using_crt_bundle[0m[0m at [0;32m/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/main/https_handler.c[0m[0m:[1;31m149[0m
+[0m--- 0x400dd193: [0;33mhttps_request_task[0m[0m at [0;32m/gsFiles/Projects/github/PlaneTracker/esp32/info_collector/main/info_collector.c[0m[0m:[1;31m19[0m
+[0m--- 0x4017b0f6: [0;33mvPortTaskWrapper[0m[0m at [0;32m/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m143[0m
+[0m

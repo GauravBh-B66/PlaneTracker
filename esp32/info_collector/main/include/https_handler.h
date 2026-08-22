@@ -16,6 +16,7 @@
 #include "protocol_examples_common.h"
 #include "esp_sntp.h"
 #include "esp_netif.h"
+#include "esp_netif_sntp.h"
 
 #include "lwip/err.h"
 #include "lwip/sockets.h"

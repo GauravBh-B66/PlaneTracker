@@ -1,0 +1,168 @@
+Command: /gsFiles/user_gs/home_user_gsb/.espressif/python_env/idf6.0_py3.13_env/bin/python /gsFiles/Projects/tools/esp/v6.0.1/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/Info_Collector.elf /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/bootloader/bootloader.elf -m '/gsFiles/user_gs/home_user_gsb/.espressif/python_env/idf6.0_py3.13_env/bin/python' '/gsFiles/Projects/tools/esp/v6.0.1/esp-idf/tools/idf.py'
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6272
+load:0x40078000,len:15848
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v6.0.1 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Aug 22 2026 22:21:55[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (28) boot: chip revision: v1.0[0m
+[0;32mI (31) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (35) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (38) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (42) boot: Enabling RNG early entropy source...[0m
+[0;32mI (46) boot: Partition Table:[0m
+[0;32mI (49) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (55) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (68) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (75) boot: End of partition table[0m
+[0;32mI (78) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=2eddch (191964) map[0m
+[0;32mI (154) esp_image: segment 1: paddr=0003ee04 vaddr=3ffb0000 size=01214h (  4628) load[0m
+[0;32mI (156) esp_image: segment 2: paddr=00040020 vaddr=400d0020 size=a400ch (671756) map[0m
+[0;32mI (397) esp_image: segment 3: paddr=000e4034 vaddr=3ffb1214 size=03354h ( 13140) load[0m
+[0;32mI (402) esp_image: segment 4: paddr=000e7390 vaddr=40080000 size=1563ch ( 87612) load[0m
+[0;32mI (438) esp_image: segment 5: paddr=000fc9d4 vaddr=50000000 size=00028h (    40) load[0m
+[0;32mI (449) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (449) boot: Disabling RNG early entropy source...[0m
+[0;32mI (460) cpu_start: Multicore app[0m
+[0;32mI (468) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (469) cpu_start: Pro cpu start user code[0m
+[0;32mI (469) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (470) app_init: Application information:[0m
+[0;32mI (474) app_init: Project name:     Info_Collector[0m
+[0;32mI (479) app_init: App version:      df7f902-dirty[0m
+[0;32mI (483) app_init: Compile time:     Aug 22 2026 22:25:58[0m
+[0;32mI (488) app_init: ELF file SHA256:  240e264a1...[0m
+[0;32mI (493) app_init: ESP-IDF:          v6.0.1[0m
+[0;32mI (496) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (500) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (504) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (508) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (514) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (519) heap_init: At 3FFB8FF0 len 00027010 (156 KiB): DRAM[0m
+[0;32mI (525) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (530) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (536) heap_init: At 4009563C len 0000A9C4 (42 KiB): IRAM[0m
+[0;32mI (542) spi_flash: detected chip: generic[0m
+[0;32mI (545) spi_flash: flash io: dio[0m
+[0;33mW (547) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (562) main_task: Started on CPU0[0m
+[0;32mI (572) main_task: Calling app_main()[0m
+[0;32mI (602) example_connect: Start example_connect.[0m
+[0;32mI (622) wifi:wifi driver task: 3ffc0828, prio:23, stack:6656, core=0[0m
+[0;32mI (642) wifi:wifi firmware version: b37c951[0m
+[0;32mI (642) wifi:wifi certification version: v7.0[0m
+[0;32mI (642) wifi:config NVS flash: enabled[0m
+[0;32mI (642) wifi:config nano formatting: disabled[0m
+[0;32mI (642) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (652) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (652) wifi:Init management short buffer num: 32[0m
+[0;32mI (652) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (662) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (662) wifi:Init static rx buffer num: 10[0m
+[0;32mI (672) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (672) wifi_init: rx ba win: 6[0m
+[0;32mI (672) wifi_init: accept mbox: 6[0m
+[0;32mI (682) wifi_init: tcpip mbox: 32[0m
+[0;32mI (682) wifi_init: udp mbox: 6[0m
+[0;32mI (682) wifi_init: tcp mbox: 6[0m
+[0;32mI (682) wifi_init: tcp tx win: 5760[0m
+[0;32mI (692) wifi_init: tcp rx win: 5760[0m
+[0;32mI (692) wifi_init: tcp mss: 1440[0m
+[0;32mI (692) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (702) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (702) phy_init: phy_version 4863,a3a4459,Oct 28 2025,14:30:06[0m
+[0;32mI (782) wifi:mode : sta (9c:9c:1f:ca:7a:90)[0m
+[0;32mI (782) wifi:enable tsf[0m
+[0;32mI (792) example_connect: Connecting to saraswatibhattarai_2...[0m
+[0;33mW (792) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (802) example_connect: Waiting for IP(s)[0m
+[0;32mI (3212) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (3212) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (3232) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (3242) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (3352) wifi:connected with saraswatibhattarai_2, aid = 3, channel 1, BW20, bssid = 78:4f:24:5f:e9:c3[0m
+[0;32mI (3352) wifi:security: WPA2-PSK, phy: bgn, rssi: -56, cipher(pairwise:0x3, group:0x3), pmf:0[0m
+[0;32mI (3362) wifi:pm start, type: 1[0m
+
+[0;32mI (3362) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (3422) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (3442) wifi:<ba-add>idx:0 (ifx:0, 78:4f:24:5f:e9:c3), tid:0, ssn:3, winSize:64[0m
+[0;32mI (4532) esp_netif_handlers: example_netif_sta ip: 192.168.1.76, mask: 255.255.255.0, gw: 192.168.1.254[0m
+[0;32mI (4532) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 192.168.1.76[0m
+[0;32mI (4602) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:9e9c:1fff:feca:7a90, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (4602) example_common: Connected to example_netif_sta[0m
+[0;32mI (4602) example_common: - IPv4 address: 192.168.1.76,[0m
+[0;32mI (4612) example_common: - IPv6 address: fe80:0000:0000:0000:9e9c:1fff:feca:7a90, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+[0;32mI (4622) Info Collector: Updating time from NVS[0m
+[0;32mI (4632) Info Collector: Start OpenSky Engine[0m
+[0;32mI (4632) HTTPS Handler: https_request using crt bundle[0m
+[0;32mI (4642) main_task: Returned from app_main()[0m
+[0;32mI (4662) HTTPS Handler: TLS verification time: 2026-08-22 16:41:46 UTC[0m
+[0;32mI (4662) HTTPS Handler: TLS verification timestamp: 1787416906[0m
+[0;32mI (4662) wifi:<ba-add>idx:1 (ifx:0, 78:4f:24:5f:e9:c3), tid:1, ssn:0, winSize:64[0m
+[0;32mI (5952) esp-x509-crt-bundle: Certificate validated[0m
+[0;32mI (6012) HTTPS Handler: Connection established...[0m
+[0;32mI (6012) HTTPS Handler: 131 bytes written[0m
+[0;32mI (6012) HTTPS Handler: Reading HTTP response ...[0m
+[0;32mI (6012) WEB URL: https://opensky-network.org/api/states/all?icao24=78112E[0m
+[0;32mI (7602) example_connect: Got IPv6 event: Interface "example_netif_sta" address: 2400:1a00:4ba3:1474:9e9c:1fff:feca:7a90, type: ESP_IP6_ADDR_IS_GLOBAL[0m
+HTTP/1.1 200 
+Date: Sat, 22 Aug 2026 16:41:49 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Rate-Limit-Remaining: 380
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Or
+Error before: HTTP/1.1 200 
+Date: Sat, 22 Aug 2026 16:41:49 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Rate-Limit-Remaining: 380
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Or
+[0;32mI (7732) HTTPS Handler: 10...[0m
+[0;32mI (8732) HTTPS Handler: 9...[0m
+[0;32mI (9732) HTTPS Handler: 8...[0m
+[0;32mI (10732) HTTPS Handler: 7...[0m
+[0;32mI (11732) HTTPS Handler: 6...[0m
+[0;32mI (12732) HTTPS Handler: 5...[0m
+[0;32mI (13732) HTTPS Handler: 4...[0m
+[0;32mI (14732) HTTPS Handler: 3...[0m
+[0;32mI (15732) HTTPS Handler: 2...[0m
+[0;32mI (16732) HTTPS Handler: 1...[0m
+[0;32mI (17732) HTTPS Handler: 0...[0m
+[0;32mI (18732) Info Collector: Minimum free heap size: 174216 bytes[0m
+[0;32mI (18732) HTTPS Handler: https_request using cacert_buf[0m
+[0;32mI (19972) esp-x509-crt-bundle: Certificate validated[0m
+[0;32mI (20032) HTTPS Handler: Connection established...[0m
+[0;32mI (20032) HTTPS Handler: 131 bytes written[0m
+[0;32mI (20032) HTTPS Handler: Reading HTTP response ...[0m
+[0;32mI (20032) WEB URL: https://opensky-network.org/api/states/all?icao24=78112E[0m

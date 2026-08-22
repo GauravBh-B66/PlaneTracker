@@ -22,4 +22,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/https_request.elf
+file /gsFiles/Projects/github/PlaneTracker/esp32/info_collector/build/Info_Collector.elf

@@ -16599,7 +16599,7 @@
                         "id": "LWIP_TCPIP_TASK_STACK_SIZE",
                         "name": "LWIP_TCPIP_TASK_STACK_SIZE",
                         "range": [
-                            2560,
+                            2048,
                             65536
                         ],
                         "title": "TCP/IP Task Stack Size",
@@ -16989,7 +16989,10 @@
                                         "help": "Set maximum number of NTP servers acquired via DHCP-offer.\nShould be less or equal to \"Maximum number of NTP servers\", any extra servers would be just ignored.",
                                         "id": "LWIP_DHCP_MAX_NTP_SERVERS",
                                         "name": "LWIP_DHCP_MAX_NTP_SERVERS",
-                                        "range": null,
+                                        "range": [
+                                            1,
+                                            16
+                                        ],
                                         "title": "Maximum number of NTP servers acquired via DHCP",
                                         "type": "int"
                                     }
@@ -17023,10 +17026,7 @@
                                         "help": "RFC 4330 recommends a startup delay before sending the initial request.\nLWIP calculates this delay to a random number of milliseconds between 0 and this value.",
                                         "id": "LWIP_SNTP_MAXIMUM_STARTUP_DELAY",
                                         "name": "LWIP_SNTP_MAXIMUM_STARTUP_DELAY",
-                                        "range": [
-                                            100,
-                                            300000
-                                        ],
+                                        "range": null,
                                         "title": "Maximum startup delay (ms)",
                                         "type": "int"
                                     }
